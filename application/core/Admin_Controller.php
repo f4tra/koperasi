@@ -11,9 +11,8 @@ class Admin_Controller extends MY_Controller
 {
 	public function __construct()
 	{
-		parent::__construct();
-		
+		parent::__construct();        
 		if (!$this->auth->loggedin())
-			redirect('auth/login');
+			redirect('authorize');
 	}
 }

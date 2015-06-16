@@ -35,3 +35,42 @@
 		</ul>
 	</div>
 </div>
+
+
+<!-- TREE VIEW -->
+						<div class="row">
+							<div class="col-md-6">
+								<!-- BOX -->
+								<div class="box border red">
+									<div class="box-title">
+										<h4><i class="fa fa-sitemap"></i>Tree View</h4>
+										<div class="tools">
+											<a href="#box-config" data-toggle="modal" class="config">
+												<i class="fa fa-cog"></i>
+											</a>
+											<a href="javascript:;" class="reload">
+												<i class="fa fa-refresh"></i>
+											</a>
+											<a href="javascript:;" class="collapse">
+												<i class="fa fa-chevron-up"></i>
+											</a>
+											<a href="javascript:;" class="remove">
+												<i class="fa fa-times"></i>
+											</a>
+										</div>
+									</div>
+									<div class="box-body">
+										<div id="tree1" class="tree"></div>
+									</div>
+								</div>
+								<!-- /BOX -->
+							</div>
+							
+						</div>
+						<!-- /TREE VIEW  -->
+						<div class="separator"></div>
+						<div class="footer-tools">
+							<span class="go-top">
+								<i class="fa fa-chevron-up"></i> Top
+							</span>
+						</div>

@@ -1,47 +1,49 @@
-<?php //print_r($template);?>
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title><?php echo $template['title']; ?></title>
-		<?php echo $template['metas']; ?>
+<head>
+	
+	<meta charset="utf-8" />
+	<title><?php echo $template['title']; ?></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no" />
+	<meta name="description" content="" />
+	<meta name="author" content="" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<?php echo $template['metas']; ?>
+	<?php echo $template['css']['beckend']; ?>
+	
+	<!-- FONTS -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css' />
+	<?php echo $template['js_header']['beckend']; ?>
+</head>
+<body>
 
-		<!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
-		<!--[if lt IE 9]>
-		  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
-
-		<!-- Le styles -->
-		<?php echo $template['css']['beckend']; 
-		
-		?>
-
-		<!-- Le fav and touch icons -->
-		<link rel="shortcut icon" href="images/favicon.ico">
-		<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-		<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-		<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
-		
-		<?php echo $template['js_header']['beckend']; ?>
-	</head>
-
-	<body>
-
-		<?php $this->load->view('navbar', $template); ?>
-
-		<div class="container">
-			
-			<?php echo $template['content']; ?>
-			
-			<?php $this->load->view('footer'); ?>
-			
-		</div> <!-- /container -->
-
-		<!-- Le javascript
-		================================================== -->
-		<!-- Placed at the end of the document so the pages load faster -->
-		<?php echo $template['js_footer']['beckend']; ?>
-		
-	</body>
+	<?php echo $this->load->view('beckend_partial/header',$template); ?>		
+	
+	
+	<!-- PAGE -->
+	<section id="page">
+		<?php echo $this->load->view('beckend_partial/sidebar',$template); ?>				
+		<div id="main-content">
+			<div class="container">
+				<div class="row">
+					<div id="content" class="col-lg-12">
+						<?php echo $this->load->view('beckend_partial/broudcoum',$template); ?>				
+						<?php echo $template['content']; ?>
+						
+					</div><!-- /CONTENT-->
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--/PAGE -->
+	<!-- JAVASCRIPTS -->
+	<?php  echo $template['js_footer']['beckend']; ?>
+	<script>
+		jQuery(document).ready(function() {		
+			App.setPage("fixed_header_sidebar");  //Set current page
+			App.setPage("treeview");  //Set current page
+			App.init(); //Initialise plugins and elements
+		});
+	</script>
+</body>
 </html>

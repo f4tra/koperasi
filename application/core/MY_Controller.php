@@ -59,10 +59,16 @@ class MY_Controller extends CI_Controller
 				'role_id'		=> $user->role_id,
 				'role_name'		=> $user->role_name
 			);
+			$where = array('active'=>0,'parent_id'=>0);
+			$this->data['menu'] 			 = $this->mgeneral->getwhere($where,'tr_menu');
+			
+			//$this->data['menu_parent'] 		 = $this->mgeneral->getwhere($where,'tr_menu');
+			//$this->data['menu_parent_child'] = $this->mgeneral->getwhere($where,'tr_menu');
 		}
 		else
 		{
 			$this->session->set_userdata('role_name', 'Guest');
+			$this->template->set_layout('frontend');
 		}
 		
 		// Setting up language.
@@ -107,6 +113,7 @@ class MY_Controller extends CI_Controller
 		
 		// Set redirect 
 		$this->data['redirect'] = urldecode($this->input->get_post('redirect'));
+		
 	}
 	
 	/**

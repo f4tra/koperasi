@@ -21,7 +21,7 @@ class Rule extends Admin_Controller
 		$this->load->model('acl/rule_model');
 		$this->load->language('acl/role');
 		$this->load->language('acl/rule');
-		$this->template->set_css('simple-lists');
+		$this->template->set_css_f('css/simple-lists');
 		
 		$this->data['redirect'] = urldecode($this->input->get_post('redirect'));
 		
@@ -36,7 +36,13 @@ class Rule extends Admin_Controller
 		$acl = $this->acl;
 		$this->data['acl'] =  $acl;
 		$this->template->set_title(lang('rule_page_name'));
-		$this->template->build('acl/rule-tree', $this->data);
+		$script = '$("#tree2").admin_tree({dataSource:treeDataSource,multiSelect:!0,loadingHTML:"<div class="tree-loading"><i class="fa fa-spinner fa-2x fa-spin"></i></div>","open-icon":"fa-minus","close-icon":"fa-plus",selectable:!0,"selected-icon":"fa-check","unselected-icon":"fa-times"})';
+		$this->template
+		->set_css('js/fuelux-tree/fuelux.min')
+		->set_js('js/fuelux-tree/fuelux.tree-sampledata',true)
+		->set_js('js/fuelux-tree/fuelux.tree.min',true)
+		->set_js_script($script,'',true)
+		->build('acl/rule-tree', $this->data);
 	}
 	
 	function edit($role_id)

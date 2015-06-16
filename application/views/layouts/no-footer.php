@@ -12,7 +12,7 @@
 		<![endif]-->
 
 		<!-- Le styles -->
-		<?php echo $template['css']['beckend']; ?>
+		<?php echo $template['css']['frontend']; ?>
 
 		<!-- Le fav and touch icons -->
 		<link rel="shortcut icon" href="images/favicon.ico">
@@ -20,12 +20,12 @@
 		<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
 		<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
 		
-		<?php echo $template['js_header']['beckend']; ?>
+		<?php echo $template['js_header']['frontend']; ?>
 	</head>
 
 	<body>
 
-		<?php $this->load->view('navbar', $template); ?>
+		<?php $this->load->view('frontend_partial/navbar', $template); ?>
 
 		<div class="container">
 			
@@ -36,7 +36,7 @@
 		<!-- Le javascript
 		================================================== -->
 		<!-- Placed at the end of the document so the pages load faster -->
-		<?php echo $template['js_footer']['beckend']; ?>
+		<?php echo $template['js_footer']['frontend']; ?>
 		
 	</body>
 </html>

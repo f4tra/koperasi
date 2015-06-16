@@ -59,18 +59,24 @@ $config['beam_template']['metas'] = array(
  */
 $config['beam_template']['css'] = array(
 	'beckend'=>array(
-		'bootstrap',		
+		'css/cloud-admin',	
+		'css/themes/default',	
+		'css/responsive',	
+		'font-awesome/css/font-awesome.min',
+		'js/bootstrap-daterangepicker/daterangepicker-bs3',
+		'js/uniform/css/uniform.default.min',	
+		'css/animatecss/animate.min'	
 	),
 	'frontend' =>array(
-		'bootstrap',
-		'default-style' => array(
+		'css/bootstrap',
+		'css/default-style' => array(
 		'style' => '
 			body {
 				padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
 			}'
 		),
-		'bootstrap-theme',
-		'simple-lists'
+		'css/bootstrap-theme',
+		'css/simple-lists'
 	)
 );
 
@@ -79,19 +85,26 @@ $config['beam_template']['css'] = array(
  */
 $config['beam_template']['js_header'] = array(
 	'beckend'=>array(
-		'jquery',		
-		'jafar',		
-		'sidik',		
+		
 	),
 	'frontend'=>array(
-		'jquery',		
+		'js/jquery',		
 	),
 );
 $config['beam_template']['js_footer'] = array(
 	'beckend'=>array(
-		'bootstrap',		
+		'js/jquery/jquery-2.0.3.min',		
+		'js/jquery-ui-1.10.3.custom/js/jquery-ui-1.10.3.custom.min',
+		'bootstrap-dist/js/bootstrap.min',
+		'js/bootstrap-daterangepicker/moment.min',
+		'js/bootstrap-daterangepicker/daterangepicker.min',
+		'js/jQuery-slimScroll-1.3.0/jquery.slimscroll.min',
+		'js/jQuery-slimScroll-1.3.0/slimScrollHorizontal.min',
+		'js/jQuery-Cookie/jquery.cookie.min',
+		'js/uniform/jquery.uniform.min',
+		'js/script',
 	),
 	'frontend'=>array(
-		'bootstrap',		
+		'js/bootstrap',		
 	),
 );

@@ -42,7 +42,7 @@ if (!function_exists('js_url'))
 	 */
 	function js_url($name = '')
 	{
-		return assets_url('js/' . $name . '.js');
+		return assets_url($name . '.js');
 	}
 }
 
@@ -59,7 +59,7 @@ if (!function_exists('css_url'))
 	 */
 	function css_url($name = '')
 	{
-		return assets_url('css/' . $name . '.css');
+		return assets_url($name . '.css');
 	}
 }
 
@@ -76,7 +76,7 @@ if (!function_exists('image_url'))
 	 */
 	function image_url($filename = '')
 	{
-		return assets_url('img/' . $filename);
+		return assets_url( $filename);
 	}
 }
 
@@ -102,8 +102,9 @@ if (!function_exists('messages'))
 			$num_messages = count($messages);
 			if ($num_messages)
 			{
-				$content .= "<div class=\"alert alert-block alert-$type\">";
-				$content .= '<button type="button" class="close" data-dismiss="alert">×</button>';
+				
+				$content .= "<div class=\"alert alert-block alert-$type\" fade in>";
+				$content .= '<a class="close" data-dismiss="alert" href="#" aria-hidden="true">×</a>';
 				$content .= '<h4>' . lang($type) . '</h4>';
 				if ($num_messages > 1)
 				{

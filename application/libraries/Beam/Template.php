@@ -115,7 +115,7 @@ class Template
 	 */
 	protected $messages = array(
 		'warning'	=> array(), 
-		'error'		=> array(), 
+		'danger'	=> array(), 
 		'success'	=> array(), 
 		'info'		=> array(),
 		'notify'	=> array()
@@ -197,7 +197,7 @@ class Template
 				case 'js_footer':
 					$b = $value['beckend'];
 					$c = $value['frontend'];
-					foreach($c as $jskey => $jsval)
+					foreach($b as $jskey => $jsval)
 					{
 						if (is_numeric($jskey))
 							$this->set_js($jsval, TRUE);
@@ -540,7 +540,7 @@ class Template
 				}	
 				else
 				{					
-						$css_pathb = $this->ci->config->base_url($this->assets_path['beckend'] . '/css/' . $key . '.css');
+						$css_pathb = $this->ci->config->base_url($this->assets_path['beckend'] . '/' . $key . '.css');
 						$template_data['css']['beckend'] .= "\t\t<link href=\"" . $css_pathb . "\" {$attr}/>\r\n";
 					
 				}
@@ -573,7 +573,7 @@ class Template
 				}	
 				else
 				{					
-						$css_pathb = $this->ci->config->base_url($this->assets_path['frontend'] . '/css/' . $key . '.css');
+						$css_pathb = $this->ci->config->base_url($this->assets_path['frontend'] . '/' . $key . '.css');
 						$template_data['css']['frontend'] .= "\t\t<link href=\"" . $css_pathb . "\" {$attr}/>\r\n";
 					
 				}
@@ -585,7 +585,7 @@ class Template
 		foreach($this->js_header as $key => $value)
 		{
 			if ($key == $value)
-				$template_data['js_header']['beckend'] .= "\t\t<script src=\"" . $this->ci->config->base_url($this->assets_path['beckend'] . '/js/' . $key . '.js') . "\"></script>\r\n";
+				$template_data['js_header']['beckend'] .= "\t\t<script src=\"" . $this->ci->config->base_url($this->assets_path['beckend'] . '/' . $key . '.js') . "\"></script>\r\n";
 			else
 			{
 				$template_data['js_header']['beckend'] .= "\t\t<script>\r\n" . $value . "\r\n</script>\r\n";
@@ -594,7 +594,7 @@ class Template
 		foreach($this->js_header_f as $key => $value)
 		{
 			if ($key == $value)
-				$template_data['js_header']['frontend'] .= "\t\t<script src=\"" . $this->ci->config->base_url($this->assets_path['frontend'] . '/js/' . $key . '.js') . "\"></script>\r\n";
+				$template_data['js_header']['frontend'] .= "\t\t<script src=\"" . $this->ci->config->base_url($this->assets_path['frontend'] . '/' . $key . '.js') . "\"></script>\r\n";
 			else
 			{
 				$template_data['js_header']['frontend'] .= "\t\t<script>\r\n" . $value . "\r\n</script>\r\n";
@@ -606,7 +606,7 @@ class Template
 		foreach($this->js_footer as $key => $value)
 		{
 			if ($key == $value)
-				$template_data['js_footer']['beckend'] .= "\t\t<script src=\"" . $this->ci->config->base_url($this->assets_path['beckend'] . '/js/' . $key . '.js') . "\"></script>\r\n";
+				$template_data['js_footer']['beckend'] .= "\t\t<script src=\"" . $this->ci->config->base_url($this->assets_path['beckend'] . '/' . $key . '.js') . "\"></script>\r\n";
 			else
 			{
 				$template_data['js_footer']['beckend'] .= "\t\t<script>\r\n" . $value . "\r\n</script>\r\n";
@@ -615,7 +615,7 @@ class Template
 		foreach($this->js_footer_f as $key => $value)
 		{
 			if ($key == $value)
-				$template_data['js_footer']['frontend'] .= "\t\t<script src=\"" . $this->ci->config->base_url($this->assets_path['frontend'] . '/js/' . $key . '.js') . "\"></script>\r\n";
+				$template_data['js_footer']['frontend'] .= "\t\t<script src=\"" . $this->ci->config->base_url($this->assets_path['frontend'] . '/' . $key . '.js') . "\"></script>\r\n";
 			else
 			{
 				$template_data['js_footer']['frontend'] .= "\t\t<script>\r\n" . $value . "\r\n</script>\r\n";
