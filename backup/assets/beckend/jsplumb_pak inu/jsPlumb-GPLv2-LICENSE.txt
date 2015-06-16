@@ -1,0 +1,52 @@
+rds
+
+SET IDENTITY_INSERT 'TR_FORM_ITEM_CT' OFF
+GO
+
+CREATE INDEX 'code' ON 'TR_FORM_ITEM_CT' ('code')
+GO
+
+--
+-- Table structure for table 'TR_GUI'
+--
+
+IF object_id(N'TR_GUI', 'U') IS NOT NULL DROP TABLE 'TR_GUI'
+
+CREATE TABLE 'TR_GUI' (
+  'id' INT NOT NULL IDENTITY, 
+  'code' NVARCHAR(100), 
+  'tab' INT DEFAULT 0, 
+  'parent_id' INT DEFAULT 0, 
+  'nama' NVARCHAR(50), 
+  'descr' NVARCHAR(MAX), 
+  'icons' NVARCHAR(255), 
+  'caption' NVARCHAR(50), 
+  'link' NVARCHAR(100), 
+  'active' INT DEFAULT 1, 
+  PRIMARY KEY ('id')
+)
+
+SET IDENTITY_INSERT 'TR_GUI' ON
+GO
+
+--
+-- Dumping data for table 'TR_GUI'
+--
+
+INSERT INTO 'TR_GUI' ('id', 'code', 'tab', 'parent_id', 'nama', 'descr', 'icons', 'caption', 'link', 'active') VALUES (86, N'4', 4, 0, N'SERVICE MANAGEMENT', N'', N'fa-tags', N'SERVICE MANAGEMENT', N'', 1)
+INSERT INTO 'TR_GUI' ('id', 'code', 'tab', 'parent_id', 'nama', 'descr', 'icons', 'caption', 'link', 'active') VALUES (87, N'5-1', 5, 74, N'SF Setup', N'', N'fa-tags', N'SF Setup', N'', 1)
+INSERT INTO 'TR_GUI' ('id', 'code', 'tab', 'parent_id', 'nama', 'descr', 'icons', 'caption', 'link', 'active') VALUES (88, N'5-1-1', 5, 87, N'Sales Target', N'', N'fa-tags', N'Sales Target', N'SLS-SFS-MTH.ASP?Act=List', 1)
+INSERT INTO 'TR_GUI' ('id', 'code', 'tab', 'parent_id', 'nama', 'descr', 'icons', 'caption', 'link', 'active') VALUES (89, N'5-1-2', 5, 87, N'Qlftcn Setup', N'', N'fa-tags', N'Qlftcn Setup', N'SLS-SFS-QLF.ASP?Act=List', 1)
+INSERT INTO 'TR_GUI' ('id', 'code', 'tab', 'parent_id', 'nama', 'descr', 'icons', 'caption', 'link', 'active') VALUES (90, N'5-2', 5, 74, N'Sales Cycle', N'', N'fa-tags', N'Sales Cycle', N'', 1)
+INSERT INTO 'TR_GUI' ('id', 'code', 'tab', 'parent_id', 'nama', 'descr', 'icons', 'caption', 'link', 'active') VALUES (91, N'5-2-1', 5, 90, N'Sales Lead', N'', N'fa-tags', N'Sales Lead', N'SLS-SC-LEAD.ASP?Act=List', 1)
+INSERT INTO 'TR_GUI' ('id', 'code', 'tab', 'parent_id', 'nama', 'descr', 'icons', 'caption', 'link', 'active') VALUES (92, N'5-2-2', 5, 90, N'Lead Conversion', NULL, N'fa-tags', N'Lead Conversion', N'SLS-SC-LCNV.ASP?Act=List', 1)
+INSERT INTO 'TR_GUI' ('id', 'code', 'tab', 'parent_id', 'nama', 'descr', 'icons', 'caption', 'link', 'active') VALUES (93, N'5-3', 5, 74, N'Measurement Tools', NULL, N'fa-tags', N'Measurement Tools', NULL, 1)
+INSERT INTO 'TR_GUI' ('id', 'code', 'tab', 'parent_id', 'nama', 'descr', 'icons', 'caption', 'link', 'active') VALUES (94, N'5-3-1', 5, 93, N'Order Creation', NULL, N'fa-tags', N'Order Creation', N'SLS-MT-ORDC.ASP?Act=List', 1)
+INSERT INTO 'TR_GUI' ('id', 'code', 'tab', 'parent_id', 'nama', 'descr', 'icons', 'caption', 'link', 'active') VALUES (95, N'5-3-2', 5, 93, N'Sales  Forecast', NULL, N'fa-tags', N'Sales  Forecast', N'SLS-MT-FRC.ASP?Act=List', 1)
+INSERT INTO 'TR_GUI' ('id', 'code', 'tab', 'parent_id', 'nama', 'descr', 'icons', 'caption', 'link', 'active') VALUES (96, N'5-3-3', 5, 93, N'Sales  Report', NULL, N'fa-tags', N'Sales  Report', N'SLS-MT-RPT.ASP?Act=List', 1)
+INSERT INTO 'TR_GUI' ('id', 'code', 'tab', 'parent_id', 'nama', 'descr', 'icons', 'caption', 'link', 'active') VALUES (97, N'5-4', 5, 74, N'Key Person', NULL, N'fa-tags', N'Key Person', NULL, 1)
+INSERT INTO 'TR_GUI' ('id', 'code', 'tab', 'parent_id', 'nama', 'descr', 'icons', 'caption', 'link', 'active') VALUES (98, N'5-4-1', 5, 97, N'Employee', NULL, N'fa-tags', N'Employee', N'SLS-KP-EMP.ASP?Act=List', 1)
+INSERT INTO 'TR_GUI' ('id', 'code', 'tab', 'parent_id', 'nama', 'descr', 'icons', 'caption', 'link', 'active') VALUES (99, N'5-4-2', 5, 97, N'Partner', NULL, N'fa-tags', N'Partner', N'SLS-KP-PART.ASP?Act=List', 1)
+INSERT INTO 'TR_GUI' ('id', 'code', 'tab', 'parent_id', 'nama', 'descr', 'icons', 'caption', 'link', 'active') VALUES (100, N'5-4-3', 5, 97, N'Customer', NULL, N'fa-tags', N'Customer', N'SLS-KP-CUST.ASP?Act=List', 1)
+INSERT INTO 'TR_GUI' ('id', 'code', 'tab', 'parent_id', 'nama', 'descr', 'icons', 'caption', 'link', 'active') VALUES (101, N'5-4-4', 5, 97, N'Influencer', N'', N'fa-tags', N'Influencer', N'SLS-KP-INFL.ASP?Act=List', 2)
+INSER

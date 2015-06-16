@@ -1,0 +1,299 @@
+[
+{
+	"id": "1",
+	"KODE": "1",
+	"name": "NANGGROE ACEH DARUSSALAM",
+	"IMGID": "1",
+	"DESCRIPTION": "DAERAH ISTIMEWA",
+	"KODE_YEAR": "2007",
+	"remarks": "1"
+}
+, {
+	"id": "2",
+	"KODE": "2",
+	"name": "SUMATERA UTARA",
+	"IMGID": "2",
+	"DESCRIPTION": "",
+	"KODE_YEAR": "2007",
+	"remarks": "1"
+}
+, {
+	"id": "3",
+	"KODE": "3",
+	"name": "SUMATERA BARAT",
+	"IMGID": "3",
+	"DESCRIPTION": "",
+	"KODE_YEAR": "2007",
+	"remarks": "1"
+}
+, {
+	"id": "4",
+	"KODE": "4",
+	"name": "R I A U",
+	"IMGID": "4",
+	"DESCRIPTION": "",
+	"KODE_YEAR": "2007",
+	"remarks": "1"
+}
+, {
+	"id": "5",
+	"KODE": "5",
+	"name": "J A M B I",
+	"IMGID": "5",
+	"DESCRIPTION": "",
+	"KODE_YEAR": "2007",
+	"remarks": "1"
+}
+, {
+	"id": "6",
+	"KODE": "6",
+	"name": "SUMATERA SELATA",
+	"IMGID": "6",
+	"DESCRIPTION": "",
+	"KODE_YEAR": "2007",
+	"remarks": "1"
+}
+, {
+	"id": "7",
+	"KODE": "7",
+	"name": "BENGKULU",
+	"IMGID": "7",
+	"DESCRIPTION": "",
+	"KODE_YEAR": "2007",
+	"remarks": "1"
+}
+, {
+	"id": "8",
+	"KODE": "8",
+	"name": "LAMPUNG",
+	"IMGID": "8",
+	"DESCRIPTION": "",
+	"KODE_YEAR": "2007",
+	"remarks": "1"
+}
+, {
+	"id": "9",
+	"KODE": "9",
+	"name": "BANGKA BELITUNG",
+	"IMGID": "9",
+	"DESCRIPTION": "",
+	"KODE_YEAR": "2007",
+	"remarks": "1"
+}
+, {
+	"id": "10",
+	"KODE": "10",
+	"name": "KEPULAUAN RIAU",
+	"IMGID": "10",
+	"DESCRIPTION": "",
+	"KODE_YEAR": "2007",
+	"remarks": "1"
+}
+, {
+	"id": "11",
+	"KODE": "11",
+	"name": "DKI. JAKARTA",
+	"IMGID": "11",
+	"DESCRIPTION": "",
+	"KODE_YEAR": "2007",
+	"remarks": "1"
+}
+, {
+	"id": "12",
+	"KODE": "12",
+	"name": "JAWA BARAT",
+	"IMGID": "12",
+	"DESCRIPTION": "",
+	"KODE_YEAR": "2007",
+	"remarks": "1"
+}
+, {
+	"id": "13",
+	"KODE": "13",
+	"name": "JAWA TENGAH",
+	"IMGID": "13",
+	"DESCRIPTION": "",
+	"KODE_YEAR": "2007",
+	"remarks": "1"
+}
+, {
+	"id": "14",
+	"KODE": "14",
+	"name": "DI. YOGYAKARTA",
+	"IMGID": "14",
+	"DESCRIPTION": "",
+	"KODE_YEAR": "2007",
+	"remarks": "1"
+}
+, {
+	"id": "15",
+	"KODE": "15",
+	"name": "JAWA TIMUR",
+	"IMGID": "15",
+	"DESCRIPTION": "",
+	"KODE_YEAR": "2007",
+	"remarks": "1"
+}
+, {
+	"id": "16",
+	"KODE": "16",
+	"name": "BANTE",
+	"IMGID": "16",
+	"DESCRIPTION": "",
+	"KODE_YEAR": "2007",
+	"remarks": "1"
+}
+, {
+	"id": "17",
+	"KODE": "17",
+	"name": "B A L I",
+	"IMGID": "17",
+	"DESCRIPTION": "",
+	"KODE_YEAR": "2007",
+	"remarks": "1"
+}
+, {
+	"id": "18",
+	"KODE": "18",
+	"name": "NUSA TENGGARA BARAT",
+	"IMGID": "18",
+	"DESCRIPTION": "",
+	"KODE_YEAR": "2007",
+	"remarks": "1"
+}
+, {
+	"id": "19",
+	"KODE": "19",
+	"name": "NUSA TENGGARA TIMUR",
+	"IMGID": "19",
+	"DESCRIPTION": "",
+	"KODE_YEAR": "2007",
+	"remarks": "1"
+}
+, {
+	"id": "20",
+	"KODE": "20",
+	"name": "KALIMANTAN BARAT",
+	"IMGID": "20",
+	"DESCRIPTION": "",
+	"KODE_YEAR": "2007",
+	"remarks": "1"
+}
+, {
+	"id": "21",
+	"KODE": "21",
+	"name": "KALIMANTAN TENGAH",
+	"IMGID": "21",
+	"DESCRIPTION": "",
+	"KODE_YEAR": "2007",
+	"remarks": "1"
+}
+, {
+	"id": "22",
+	"KODE": "22",
+	"name": "KALIMANTAN SELATA",
+	"IMGID": "22",
+	"DESCRIPTION": "",
+	"KODE_YEAR": "2007",
+	"remarks": "1"
+}
+, {
+	"id": "23",
+	"KODE": "23",
+	"name": "KALIMANTAN TIMUR",
+	"IMGID": "23",
+	"DESCRIPTION": "",
+	"KODE_YEAR": "2007",
+	"remarks": "1"
+}
+, {
+	"id": "24",
+	"KODE": "24",
+	"name": "SULAWESI UTARA",
+	"IMGID": "24",
+	"DESCRIPTION": "",
+	"KODE_YEAR": "2007",
+	"remarks": "1"
+}
+, {
+	"id": "25",
+	"KODE": "25",
+	"name": "SULAWESI BARAT",
+	"IMGID": "25",
+	"DESCRIPTION": "",
+	"KODE_YEAR": "2009",
+	"remarks": "1"
+}
+, {
+	"id": "26",
+	"KODE": "26",
+	"name": "SULAWESI TENGAH",
+	"IMGID": "26",
+	"DESCRIPTION": "",
+	"KODE_YEAR": "2007",
+	"remarks": "1"
+}
+, {
+	"id": "27",
+	"KODE": "27",
+	"name": "SULAWESI SELATA",
+	"IMGID": "27",
+	"DESCRIPTION": "",
+	"KODE_YEAR": "2007",
+	"remarks": "1"
+}
+, {
+	"id": "28",
+	"KODE": "28",
+	"name": "SULAWESI TENGGARA",
+	"IMGID": "28",
+	"DESCRIPTION": "",
+	"KODE_YEAR": "2007",
+	"remarks": "1"
+}
+, {
+	"id": "29",
+	"KODE": "29",
+	"name": "GORONTALO",
+	"IMGID": "29",
+	"DESCRIPTION": "",
+	"KODE_YEAR": "2007",
+	"remarks": "1"
+}
+, {
+	"id": "30",
+	"KODE": "30",
+	"name": "MALUKU",
+	"IMGID": "30",
+	"DESCRIPTION": "",
+	"KODE_YEAR": "2007",
+	"remarks": "1"
+}
+, {
+	"id": "31",
+	"KODE": "31",
+	"name": "MALUKU UTARA",
+	"IMGID": "31",
+	"DESCRIPTION": "",
+	"KODE_YEAR": "2007",
+	"remarks": "1"
+}
+, {
+	"id": "32",
+	"KODE": "32",
+	"name": "PAPUA",
+	"IMGID": "32",
+	"DESCRIPTION": "",
+	"KODE_YEAR": "2007",
+	"remarks": "1"
+}
+, {
+	"id": "33",
+	"KODE": "33",
+	"name": "IRIAN JAYA BARAT",
+	"IMGID": "33",
+	"DESCRIPTION": "",
+	"KODE_YEAR": "2007",
+	"remarks": "1"
+}
+]

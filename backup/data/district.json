@@ -1,0 +1,4262 @@
+[
+{
+	"id": "1",
+	"code": "1",
+	"name": " SIMEULEU",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "1",
+	"IMGID": "1",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "2",
+	"code": "2",
+	"name": " ACEHSINGKIL",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "1",
+	"IMGID": "2",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "3",
+	"code": "3",
+	"name": " ACEHSELATA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "1",
+	"IMGID": "3",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "4",
+	"code": "4",
+	"name": " ACEHTENGGARA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "1",
+	"IMGID": "4",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "5",
+	"code": "5",
+	"name": " ACEHBARAT",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "1",
+	"IMGID": "5",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "6",
+	"code": "6",
+	"name": " ACEHBESAR",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "1",
+	"IMGID": "6",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "7",
+	"code": "7",
+	"name": " PIDIE",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "1",
+	"IMGID": "7",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "8",
+	"code": "8",
+	"name": " ACEHBARATDAYA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "1",
+	"IMGID": "8",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "9",
+	"code": "9",
+	"name": " GAYOLUES",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "1",
+	"IMGID": "9",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "10",
+	"code": "10",
+	"name": " NAGANRAYA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "1",
+	"IMGID": "10",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "11",
+	"code": "11",
+	"name": " ACEHJAYA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "1",
+	"IMGID": "11",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "12",
+	"code": "12",
+	"name": " BANDAACEH",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "1",
+	"IMGID": "12",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "13",
+	"code": "13",
+	"name": " SABANG",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "1",
+	"IMGID": "13",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "14",
+	"code": "14",
+	"name": " ACEHTIMUR",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "1",
+	"IMGID": "14",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "15",
+	"code": "15",
+	"name": " ACEHTENGAH",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "1",
+	"IMGID": "15",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "16",
+	"code": "16",
+	"name": " BIREUE",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "1",
+	"IMGID": "16",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "17",
+	"code": "17",
+	"name": " ACEHUTARA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "1",
+	"IMGID": "17",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "18",
+	"code": "18",
+	"name": " ACEHTAMIANG",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "1",
+	"IMGID": "18",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "19",
+	"code": "19",
+	"name": " BENERMERIAH",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "1",
+	"IMGID": "19",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "20",
+	"code": "20",
+	"name": " LANGSA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "1",
+	"IMGID": "20",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "21",
+	"code": "21",
+	"name": " LHOKSEUMAWE",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "1",
+	"IMGID": "21",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "22",
+	"code": "22",
+	"name": " DELISERDANG",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "2",
+	"IMGID": "22",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "23",
+	"code": "23",
+	"name": " SERDANGBEDAGAI",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "2",
+	"IMGID": "23",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "24",
+	"code": "24",
+	"name": " TEBINGTINGGI",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "2",
+	"IMGID": "24",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "25",
+	"code": "25",
+	"name": " MEDA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "2",
+	"IMGID": "25",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "26",
+	"code": "26",
+	"name": " NIAS",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "2",
+	"IMGID": "26",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "27",
+	"code": "27",
+	"name": " MANDAILINGNATAL",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "2",
+	"IMGID": "27",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "28",
+	"code": "28",
+	"name": " TAPANULISELATA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "2",
+	"IMGID": "28",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "29",
+	"code": "29",
+	"name": " TAPANULITENGAH",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "2",
+	"IMGID": "29",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "30",
+	"code": "30",
+	"name": " TAPANULIUTARA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "2",
+	"IMGID": "30",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "31",
+	"code": "31",
+	"name": " TOBASAMOSIR",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "2",
+	"IMGID": "31",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "32",
+	"code": "32",
+	"name": " LABUHANBATU",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "2",
+	"IMGID": "32",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "33",
+	"code": "33",
+	"name": " NIASSELATA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "2",
+	"IMGID": "33",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "34",
+	"code": "34",
+	"name": " HUMBANGHASUNDUTA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "2",
+	"IMGID": "34",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "35",
+	"code": "35",
+	"name": " SAMOSIR",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "2",
+	"IMGID": "35",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "36",
+	"code": "36",
+	"name": " SIBOLGA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "2",
+	"IMGID": "36",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "37",
+	"code": "37",
+	"name": " PADANGSIDEMPUA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "2",
+	"IMGID": "37",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "38",
+	"code": "38",
+	"name": " ASAHA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "2",
+	"IMGID": "38",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "39",
+	"code": "39",
+	"name": " SIMALUNGU",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "2",
+	"IMGID": "39",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "40",
+	"code": "40",
+	"name": " DAIRI",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "2",
+	"IMGID": "40",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "41",
+	"code": "41",
+	"name": " KARO",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "2",
+	"IMGID": "41",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "42",
+	"code": "42",
+	"name": " LANGKAT",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "2",
+	"IMGID": "42",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "43",
+	"code": "43",
+	"name": " PAKPAKBHARAT",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "2",
+	"IMGID": "43",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "44",
+	"code": "44",
+	"name": " TANJUNGBALAI",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "2",
+	"IMGID": "44",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "45",
+	"code": "45",
+	"name": " PEMATANGSIANTAR",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "2",
+	"IMGID": "45",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "46",
+	"code": "46",
+	"name": " BINJAI",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "2",
+	"IMGID": "46",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "47",
+	"code": "47",
+	"name": " KEPULAUANMENTAWAI",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "3",
+	"IMGID": "47",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "48",
+	"code": "48",
+	"name": " PESISIRSELATA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "3",
+	"IMGID": "48",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "49",
+	"code": "49",
+	"name": " SOLOK",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "3",
+	"IMGID": "49",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "50",
+	"code": "50",
+	"name": " SAWAHLUNTOSIJUNJUNG",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "3",
+	"IMGID": "50",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "51",
+	"code": "51",
+	"name": " TANAHDATAR",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "3",
+	"IMGID": "51",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "52",
+	"code": "52",
+	"name": " SOLOKSELATA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "3",
+	"IMGID": "52",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "53",
+	"code": "53",
+	"name": " DHARMASRAYA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "3",
+	"IMGID": "53",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "54",
+	"code": "54",
+	"name": " PADANG",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "3",
+	"IMGID": "54",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "55",
+	"code": "55",
+	"name": " SOLOK",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "3",
+	"IMGID": "55",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "56",
+	"code": "56",
+	"name": " SAWAHLUNTO",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "3",
+	"IMGID": "56",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "57",
+	"code": "57",
+	"name": " PADANGPANJANG",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "3",
+	"IMGID": "57",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "58",
+	"code": "58",
+	"name": " PADANGPARIAMA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "3",
+	"IMGID": "58",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "59",
+	"code": "59",
+	"name": " AGAM",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "3",
+	"IMGID": "59",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "60",
+	"code": "60",
+	"name": " LIMAPULUHKOTO",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "3",
+	"IMGID": "60",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "61",
+	"code": "61",
+	"name": " PASAMA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "3",
+	"IMGID": "61",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "62",
+	"code": "62",
+	"name": " PASAMANBARAT",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "3",
+	"IMGID": "62",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "63",
+	"code": "63",
+	"name": " BUKITTINGGI",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "3",
+	"IMGID": "63",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "64",
+	"code": "64",
+	"name": " PAYAKUMBUH",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "3",
+	"IMGID": "64",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "65",
+	"code": "65",
+	"name": " PARIAMA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "3",
+	"IMGID": "65",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "66",
+	"code": "66",
+	"name": " KUANTANSINGINGI",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "4",
+	"IMGID": "66",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "67",
+	"code": "67",
+	"name": " INDRAGIRIHULU",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "4",
+	"IMGID": "67",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "68",
+	"code": "68",
+	"name": " INDRAGIRIHILIR",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "4",
+	"IMGID": "68",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "69",
+	"code": "69",
+	"name": " PELALAWA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "4",
+	"IMGID": "69",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "70",
+	"code": "70",
+	"name": " SIAK",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "4",
+	"IMGID": "70",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "71",
+	"code": "71",
+	"name": " KAMPAR",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "4",
+	"IMGID": "71",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "72",
+	"code": "72",
+	"name": " ROKANHULU",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "4",
+	"IMGID": "72",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "73",
+	"code": "73",
+	"name": " BENGKALIS",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "4",
+	"IMGID": "73",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "74",
+	"code": "74",
+	"name": " ROKANHILIR",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "4",
+	"IMGID": "74",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "75",
+	"code": "75",
+	"name": " PEKANBARU",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "4",
+	"IMGID": "75",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "76",
+	"code": "76",
+	"name": " DUMAI",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "4",
+	"IMGID": "76",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "77",
+	"code": "77",
+	"name": "KERINCI",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "5",
+	"IMGID": "77",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "78",
+	"code": "78",
+	"name": " MERANGI",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "5",
+	"IMGID": "78",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "79",
+	"code": "79",
+	"name": " SAROLANGU",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "5",
+	"IMGID": "79",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "80",
+	"code": "80",
+	"name": " BATANGHARI",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "5",
+	"IMGID": "80",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "81",
+	"code": "81",
+	"name": " MUAROJAMBI",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "5",
+	"IMGID": "81",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "82",
+	"code": "82",
+	"name": " TANJUNGJABUNGTIMUR",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "5",
+	"IMGID": "82",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "83",
+	"code": "83",
+	"name": "TANJUNGJABUNGBARAT",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "5",
+	"IMGID": "83",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "84",
+	"code": "84",
+	"name": " TEBO",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "5",
+	"IMGID": "84",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "85",
+	"code": "85",
+	"name": " BUNGO",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "5",
+	"IMGID": "85",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "86",
+	"code": "86",
+	"name": " JAMBI",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "5",
+	"IMGID": "86",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "87",
+	"code": "87",
+	"name": " MUSIRAWAS",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "6",
+	"IMGID": "87",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "88",
+	"code": "88",
+	"name": " MUSIBANYUASI",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "6",
+	"IMGID": "88",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "89",
+	"code": "89",
+	"name": " BANYUASI",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "6",
+	"IMGID": "89",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "90",
+	"code": "90",
+	"name": " PALEMBANG",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "6",
+	"IMGID": "90",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "91",
+	"code": "91",
+	"name": " LUBUKLINGGAU",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "6",
+	"IMGID": "91",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "92",
+	"code": "92",
+	"name": " OGANKOMERINGULU",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "6",
+	"IMGID": "92",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "93",
+	"code": "93",
+	"name": " OGANKOMERINGILIR",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "6",
+	"IMGID": "93",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "94",
+	"code": "94",
+	"name": " MUARAENIM",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "6",
+	"IMGID": "94",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "95",
+	"code": "95",
+	"name": " LAHAT",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "6",
+	"IMGID": "95",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "96",
+	"code": "96",
+	"name": " OGANKOMERINGULUTIMUR",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "6",
+	"IMGID": "96",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "97",
+	"code": "97",
+	"name": "OGANKOMERINGULUSELATA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "6",
+	"IMGID": "97",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "98",
+	"code": "98",
+	"name": " OGANILIR",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "6",
+	"IMGID": "98",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "99",
+	"code": "99",
+	"name": " PRABUMULIH",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "6",
+	"IMGID": "99",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "100",
+	"code": "100",
+	"name": " PAGARALAM",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "6",
+	"IMGID": "100",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "101",
+	"code": "101",
+	"name": " LAMPUNGBARAT",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "8",
+	"IMGID": "101",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "102",
+	"code": "102",
+	"name": " TAGGAMUS",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "8",
+	"IMGID": "102",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "103",
+	"code": "103",
+	"name": " LAMPUNGSELATA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "8",
+	"IMGID": "103",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "104",
+	"code": "104",
+	"name": " BANDARLAMPUNG",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "8",
+	"IMGID": "104",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "105",
+	"code": "105",
+	"name": " LAMPUNGTIMUR",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "8",
+	"IMGID": "105",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "106",
+	"code": "106",
+	"name": " LAMPUNGTENGAH",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "8",
+	"IMGID": "106",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "107",
+	"code": "107",
+	"name": " LAMPUNGUTARA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "8",
+	"IMGID": "107",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "108",
+	"code": "108",
+	"name": " WAYKANA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "8",
+	"IMGID": "108",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "109",
+	"code": "109",
+	"name": " TULANGBAWANG",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "8",
+	"IMGID": "109",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "110",
+	"code": "110",
+	"name": " METRO",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "8",
+	"IMGID": "110",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "111",
+	"code": "111",
+	"name": " BANGKA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "9",
+	"IMGID": "111",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "112",
+	"code": "112",
+	"name": " BELITUNG",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "9",
+	"IMGID": "112",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "113",
+	"code": "113",
+	"name": " BANGKASELATA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "9",
+	"IMGID": "113",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "114",
+	"code": "114",
+	"name": " BANGKATENGAH",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "9",
+	"IMGID": "114",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "115",
+	"code": "115",
+	"name": " BANGKABARAT",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "9",
+	"IMGID": "115",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "116",
+	"code": "116",
+	"name": " BELITUNGTIMUR",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "9",
+	"IMGID": "116",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "117",
+	"code": "117",
+	"name": " PANGKALPINANG",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "9",
+	"IMGID": "117",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "118",
+	"code": "118",
+	"name": " KEPULAUANRIAU",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "10",
+	"IMGID": "118",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "119",
+	"code": "119",
+	"name": " KARIMU",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "10",
+	"IMGID": "119",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "120",
+	"code": "120",
+	"name": " NATUNA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "10",
+	"IMGID": "120",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "121",
+	"code": "121",
+	"name": " LINGGA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "10",
+	"IMGID": "121",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "122",
+	"code": "122",
+	"name": " BATAM",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "10",
+	"IMGID": "122",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "123",
+	"code": "123",
+	"name": " TANJUNGPINANG",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "10",
+	"IMGID": "123",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "124",
+	"code": "124",
+	"name": " KEPULAUANSERIBU",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "11",
+	"IMGID": "124",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "125",
+	"code": "125",
+	"name": " PPLNDKII",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "11",
+	"IMGID": "125",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "126",
+	"code": "126",
+	"name": " JAKARTATIMUR",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "11",
+	"IMGID": "126",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "127",
+	"code": "127",
+	"name": " JAKARTAPUSAT",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "11",
+	"IMGID": "127",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "128",
+	"code": "128",
+	"name": " JAKARTAUTARA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "11",
+	"IMGID": "128",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "129",
+	"code": "129",
+	"name": " PPLNDKIII",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "11",
+	"IMGID": "129",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "130",
+	"code": "130",
+	"name": " JAKARTASELATA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "11",
+	"IMGID": "130",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "131",
+	"code": "131",
+	"name": " JAKARTABARAT",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "11",
+	"IMGID": "131",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "132",
+	"code": "132",
+	"name": " BANDUNG",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "12",
+	"IMGID": "132",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "133",
+	"code": "133",
+	"name": " CIMAHI",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "12",
+	"IMGID": "133",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "134",
+	"code": "134",
+	"name": " BANDUNG",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "12",
+	"IMGID": "134",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "135",
+	"code": "135",
+	"name": " SUKABUMI",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "12",
+	"IMGID": "135",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "136",
+	"code": "136",
+	"name": " CIANJUR",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "12",
+	"IMGID": "136",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "137",
+	"code": "137",
+	"name": " SUKABUMI",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "12",
+	"IMGID": "137",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "138",
+	"code": "138",
+	"name": " BOGOR",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "12",
+	"IMGID": "138",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "139",
+	"code": "139",
+	"name": " BOGOR",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "12",
+	"IMGID": "139",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "140",
+	"code": "140",
+	"name": " BEKASI",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "12",
+	"IMGID": "140",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "141",
+	"code": "141",
+	"name": " BEKASI",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "12",
+	"IMGID": "141",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "142",
+	"code": "142",
+	"name": " DEPOK",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "12",
+	"IMGID": "142",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "143",
+	"code": "143",
+	"name": " PURWAKARTA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "12",
+	"IMGID": "143",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "144",
+	"code": "144",
+	"name": " KARAWANG",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "12",
+	"IMGID": "144",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "145",
+	"code": "145",
+	"name": " CIREBO",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "12",
+	"IMGID": "145",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "146",
+	"code": "146",
+	"name": " INDRAMAYU",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "12",
+	"IMGID": "146",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "147",
+	"code": "147",
+	"name": " CIREBO",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "12",
+	"IMGID": "147",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "148",
+	"code": "148",
+	"name": " MAJALENGKA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "12",
+	"IMGID": "148",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "149",
+	"code": "149",
+	"name": " SUMEDANG",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "12",
+	"IMGID": "149",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "150",
+	"code": "150",
+	"name": " SUBANG",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "12",
+	"IMGID": "150",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "151",
+	"code": "151",
+	"name": " CIAMIS",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "12",
+	"IMGID": "151",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "152",
+	"code": "152",
+	"name": " KUNINGA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "12",
+	"IMGID": "152",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "153",
+	"code": "153",
+	"name": " BANJAR",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "12",
+	"IMGID": "153",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "154",
+	"code": "154",
+	"name": " GARUT",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "12",
+	"IMGID": "154",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "155",
+	"code": "155",
+	"name": " TASIKMALAYA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "12",
+	"IMGID": "155",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "156",
+	"code": "156",
+	"name": " TASIKMALAYA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "12",
+	"IMGID": "156",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "157",
+	"code": "157",
+	"name": " SEMARANG",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "13",
+	"IMGID": "157",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "158",
+	"code": "158",
+	"name": " KENDAL",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "13",
+	"IMGID": "158",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "159",
+	"code": "159",
+	"name": " SALATIGA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "13",
+	"IMGID": "159",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "160",
+	"code": "160",
+	"name": " SEMARANG",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "13",
+	"IMGID": "160",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "161",
+	"code": "161",
+	"name": " KUDUS",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "13",
+	"IMGID": "161",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "162",
+	"code": "162",
+	"name": " JEPARA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "13",
+	"IMGID": "162",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "163",
+	"code": "163",
+	"name": " DEMAK",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "13",
+	"IMGID": "163",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "164",
+	"code": "164",
+	"name": " GROBOGA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "13",
+	"IMGID": "164",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "165",
+	"code": "165",
+	"name": " BLORA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "13",
+	"IMGID": "165",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "166",
+	"code": "166",
+	"name": " REMBANG",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "13",
+	"IMGID": "166",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "167",
+	"code": "167",
+	"name": " PATI",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "13",
+	"IMGID": "167",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "168",
+	"code": "168",
+	"name": " WONOGIRI",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "13",
+	"IMGID": "168",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "169",
+	"code": "169",
+	"name": " KARANGANYAR",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "13",
+	"IMGID": "169",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "170",
+	"code": "170",
+	"name": " SRAGE",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "13",
+	"IMGID": "170",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "171",
+	"code": "171",
+	"name": " BOYOLALI",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "13",
+	"IMGID": "171",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "172",
+	"code": "172",
+	"name": " KLATE",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "13",
+	"IMGID": "172",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "173",
+	"code": "173",
+	"name": " SUKOHARJO",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "13",
+	"IMGID": "173",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "174",
+	"code": "174",
+	"name": " SURAKARTA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "13",
+	"IMGID": "174",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "175",
+	"code": "175",
+	"name": " PURWOREJO",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "13",
+	"IMGID": "175",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "176",
+	"code": "176",
+	"name": " WONOSOBO",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "13",
+	"IMGID": "176",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "177",
+	"code": "177",
+	"name": " MAGELANG",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "13",
+	"IMGID": "177",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "178",
+	"code": "178",
+	"name": " TEMANGGUNG",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "13",
+	"IMGID": "178",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "179",
+	"code": "179",
+	"name": " MAGELANG",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "13",
+	"IMGID": "179",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "180",
+	"code": "180",
+	"name": " PURBALINGGA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "13",
+	"IMGID": "180",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "181",
+	"code": "181",
+	"name": " BANJARNEGARA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "13",
+	"IMGID": "181",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "182",
+	"code": "182",
+	"name": " KEBUME",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "13",
+	"IMGID": "182",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "183",
+	"code": "183",
+	"name": " CILACAP",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "13",
+	"IMGID": "183",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "184",
+	"code": "184",
+	"name": " BANYUMAS",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "13",
+	"IMGID": "184",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "185",
+	"code": "185",
+	"name": " TEGAL",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "13",
+	"IMGID": "185",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "186",
+	"code": "186",
+	"name": " BREBES",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "13",
+	"IMGID": "186",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "187",
+	"code": "187",
+	"name": " TEGAL",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "13",
+	"IMGID": "187",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "188",
+	"code": "188",
+	"name": " BATANG",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "13",
+	"IMGID": "188",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "189",
+	"code": "189",
+	"name": " PEKALONGA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "13",
+	"IMGID": "189",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "190",
+	"code": "190",
+	"name": " PEMALANG",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "13",
+	"IMGID": "190",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "191",
+	"code": "191",
+	"name": " PEKALONGA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "13",
+	"IMGID": "191",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "192",
+	"code": "192",
+	"name": " KULONPROGO",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "14",
+	"IMGID": "192",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "193",
+	"code": "193",
+	"name": " BANTUL",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "14",
+	"IMGID": "193",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "194",
+	"code": "194",
+	"name": " GUNUNGKIDUL",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "14",
+	"IMGID": "194",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "195",
+	"code": "195",
+	"name": " SLEMA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "14",
+	"IMGID": "195",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "196",
+	"code": "196",
+	"name": " YOGYAKARTA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "14",
+	"IMGID": "196",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "197",
+	"code": "197",
+	"name": " SIDOARJO",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "15",
+	"IMGID": "197",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "198",
+	"code": "198",
+	"name": " SURABAYA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "15",
+	"IMGID": "198",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "199",
+	"code": "199",
+	"name": " PROBOLINGGO",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "15",
+	"IMGID": "199",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "200",
+	"code": "200",
+	"name": " PASURUA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "15",
+	"IMGID": "200",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "201",
+	"code": "201",
+	"name": " PROBOLINGGO",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "15",
+	"IMGID": "201",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "202",
+	"code": "202",
+	"name": " PASURUA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "15",
+	"IMGID": "202",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "203",
+	"code": "203",
+	"name": " BANYUWANGI",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "15",
+	"IMGID": "203",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "204",
+	"code": "204",
+	"name": " BONDOWOSO",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "15",
+	"IMGID": "204",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "205",
+	"code": "205",
+	"name": " SITUBONDO",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "15",
+	"IMGID": "205",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "206",
+	"code": "206",
+	"name": " LUMAJANG",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "15",
+	"IMGID": "206",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "207",
+	"code": "207",
+	"name": " JEMBER",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "15",
+	"IMGID": "207",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "208",
+	"code": "208",
+	"name": " MALANG",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "15",
+	"IMGID": "208",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "209",
+	"code": "209",
+	"name": " MALANG",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "15",
+	"IMGID": "209",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "210",
+	"code": "210",
+	"name": " BATU",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "15",
+	"IMGID": "210",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "211",
+	"code": "211",
+	"name": " TULUNGAGUNG",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "15",
+	"IMGID": "211",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "212",
+	"code": "212",
+	"name": " BLITAR",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "15",
+	"IMGID": "212",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "213",
+	"code": "213",
+	"name": " KEDIRI",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "15",
+	"IMGID": "213",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "214",
+	"code": "214",
+	"name": " KEDIRI",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "15",
+	"IMGID": "214",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "215",
+	"code": "215",
+	"name": " BLITAR",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "15",
+	"IMGID": "215",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "216",
+	"code": "216",
+	"name": " PACITA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "15",
+	"IMGID": "216",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "217",
+	"code": "217",
+	"name": " PONOROGO",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "15",
+	"IMGID": "217",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "218",
+	"code": "218",
+	"name": " TRENGGALEK",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "15",
+	"IMGID": "218",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "219",
+	"code": "219",
+	"name": " MAGETA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "15",
+	"IMGID": "219",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "220",
+	"code": "220",
+	"name": " NGAWI",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "15",
+	"IMGID": "220",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "221",
+	"code": "221",
+	"name": " MOJOKERTO",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "15",
+	"IMGID": "221",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "222",
+	"code": "222",
+	"name": " JOMBANG",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "15",
+	"IMGID": "222",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "223",
+	"code": "223",
+	"name": " NGANJUK",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "15",
+	"IMGID": "223",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "224",
+	"code": "224",
+	"name": " MADIU",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "15",
+	"IMGID": "224",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "225",
+	"code": "225",
+	"name": " MOJOKERTO",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "15",
+	"IMGID": "225",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "226",
+	"code": "226",
+	"name": " MADIU",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "15",
+	"IMGID": "226",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "227",
+	"code": "227",
+	"name": " BOJONEGORO",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "15",
+	"IMGID": "227",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "228",
+	"code": "228",
+	"name": " TUBA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "15",
+	"IMGID": "228",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "229",
+	"code": "229",
+	"name": " LAMONGA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "15",
+	"IMGID": "229",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "230",
+	"code": "230",
+	"name": " GRESIK",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "15",
+	"IMGID": "230",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "231",
+	"code": "231",
+	"name": " BANGKALA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "15",
+	"IMGID": "231",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "232",
+	"code": "232",
+	"name": " SAMPANG",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "15",
+	"IMGID": "232",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "233",
+	"code": "233",
+	"name": " PAMEKASA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "15",
+	"IMGID": "233",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "234",
+	"code": "234",
+	"name": " SUMENEP",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "15",
+	"IMGID": "234",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "235",
+	"code": "235",
+	"name": " PANDEGLANG",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "16",
+	"IMGID": "235",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "236",
+	"code": "236",
+	"name": " LEBAK",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "16",
+	"IMGID": "236",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "237",
+	"code": "237",
+	"name": " SERANG",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "16",
+	"IMGID": "237",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "238",
+	"code": "238",
+	"name": " CILEGO",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "16",
+	"IMGID": "238",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "239",
+	"code": "239",
+	"name": " TANGERANG",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "16",
+	"IMGID": "239",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "240",
+	"code": "240",
+	"name": " TANGERANG",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "16",
+	"IMGID": "240",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "241",
+	"code": "241",
+	"name": " JEMBRANA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "17",
+	"IMGID": "241",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "242",
+	"code": "242",
+	"name": " TABANA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "17",
+	"IMGID": "242",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "243",
+	"code": "243",
+	"name": " BADUNG",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "17",
+	"IMGID": "243",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "244",
+	"code": "244",
+	"name": " GIANYAR",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "17",
+	"IMGID": "244",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "245",
+	"code": "245",
+	"name": " KLUNGKUNG",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "17",
+	"IMGID": "245",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "246",
+	"code": "246",
+	"name": " BANGLI",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "17",
+	"IMGID": "246",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "247",
+	"code": "247",
+	"name": " KARANGASEM",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "17",
+	"IMGID": "247",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "248",
+	"code": "248",
+	"name": " BULELENG",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "17",
+	"IMGID": "248",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "249",
+	"code": "249",
+	"name": " DENPASAR",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "17",
+	"IMGID": "249",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "250",
+	"code": "250",
+	"name": " ALOR",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "19",
+	"IMGID": "250",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "251",
+	"code": "251",
+	"name": " LEMBATA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "19",
+	"IMGID": "251",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "252",
+	"code": "252",
+	"name": " FLORESTIMUR",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "19",
+	"IMGID": "252",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "253",
+	"code": "253",
+	"name": " SIKKA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "19",
+	"IMGID": "253",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "254",
+	"code": "254",
+	"name": " ENDE",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "19",
+	"IMGID": "254",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "255",
+	"code": "255",
+	"name": " NGADA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "19",
+	"IMGID": "255",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "256",
+	"code": "256",
+	"name": " MANGGARAI",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "19",
+	"IMGID": "256",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "257",
+	"code": "257",
+	"name": " MAGGARAIBARAT",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "19",
+	"IMGID": "257",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "258",
+	"code": "258",
+	"name": " SUMBABARAT",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "19",
+	"IMGID": "258",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "259",
+	"code": "259",
+	"name": " SUMBATIMUR",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "19",
+	"IMGID": "259",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "260",
+	"code": "260",
+	"name": " KUPANG",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "19",
+	"IMGID": "260",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "261",
+	"code": "261",
+	"name": " TIMORTENGAHSELATA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "19",
+	"IMGID": "261",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "262",
+	"code": "262",
+	"name": " TIMORTENGAHUTARA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "19",
+	"IMGID": "262",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "263",
+	"code": "263",
+	"name": " BELU",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "19",
+	"IMGID": "263",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "264",
+	"code": "264",
+	"name": " ROTENDAO",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "19",
+	"IMGID": "264",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "265",
+	"code": "265",
+	"name": " KUPANG",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "19",
+	"IMGID": "265",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "266",
+	"code": "266",
+	"name": " SAMBAS",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "20",
+	"IMGID": "266",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "267",
+	"code": "267",
+	"name": " BENGKAYANG",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "20",
+	"IMGID": "267",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "268",
+	"code": "268",
+	"name": " LANDAK",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "20",
+	"IMGID": "268",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "269",
+	"code": "269",
+	"name": " PONTIANAK",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "20",
+	"IMGID": "269",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "270",
+	"code": "270",
+	"name": " SANGGAU",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "20",
+	"IMGID": "270",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "271",
+	"code": "271",
+	"name": " KETAPANG",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "20",
+	"IMGID": "271",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "272",
+	"code": "272",
+	"name": " Sint(11);ANG",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "20",
+	"IMGID": "272",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "273",
+	"code": "273",
+	"name": " KAPUASHULU",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "20",
+	"IMGID": "273",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "274",
+	"code": "274",
+	"name": " SEKADAU",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "20",
+	"IMGID": "274",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "275",
+	"code": "275",
+	"name": " MELAWI",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "20",
+	"IMGID": "275",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "276",
+	"code": "276",
+	"name": " PONTIANAK",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "20",
+	"IMGID": "276",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "277",
+	"code": "277",
+	"name": " SINGKAWANG",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "20",
+	"IMGID": "277",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "278",
+	"code": "278",
+	"name": " TANAHLAUT",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "22",
+	"IMGID": "278",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "279",
+	"code": "279",
+	"name": " BARU",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "22",
+	"IMGID": "279",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "280",
+	"code": "280",
+	"name": " BANJAR",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "22",
+	"IMGID": "280",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "281",
+	"code": "281",
+	"name": " BARITOKUALA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "22",
+	"IMGID": "281",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "282",
+	"code": "282",
+	"name": " TAPI",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "22",
+	"IMGID": "282",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "283",
+	"code": "283",
+	"name": " HULUSUNGAISELATA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "22",
+	"IMGID": "283",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "284",
+	"code": "284",
+	"name": " HULUSUNGAITENGAH",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "22",
+	"IMGID": "284",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "285",
+	"code": "285",
+	"name": " HULUSUNGAIUTARA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "22",
+	"IMGID": "285",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "286",
+	"code": "286",
+	"name": " TABALONG",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "22",
+	"IMGID": "286",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "287",
+	"code": "287",
+	"name": " TANAHBUMBU",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "22",
+	"IMGID": "287",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "288",
+	"code": "288",
+	"name": " BALANGA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "22",
+	"IMGID": "288",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "289",
+	"code": "289",
+	"name": " BANJARMASI",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "22",
+	"IMGID": "289",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "290",
+	"code": "290",
+	"name": " BANJARBARU",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "22",
+	"IMGID": "290",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "291",
+	"code": "291",
+	"name": " PASIR",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "23",
+	"IMGID": "291",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "292",
+	"code": "292",
+	"name": " KUTAIBARAT",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "23",
+	"IMGID": "292",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "293",
+	"code": "293",
+	"name": " KUTAIKERTANEGARA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "23",
+	"IMGID": "293",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "294",
+	"code": "294",
+	"name": " KUTAITIMUR",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "23",
+	"IMGID": "294",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "295",
+	"code": "295",
+	"name": " BERAU",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "23",
+	"IMGID": "295",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "296",
+	"code": "296",
+	"name": " MALINAU",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "23",
+	"IMGID": "296",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "297",
+	"code": "297",
+	"name": " BULUNGA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "23",
+	"IMGID": "297",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "298",
+	"code": "298",
+	"name": " NUNUKA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "23",
+	"IMGID": "298",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "299",
+	"code": "299",
+	"name": " PENAJAMPASERUTARA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "23",
+	"IMGID": "299",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "300",
+	"code": "300",
+	"name": " BALIKPAPA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "23",
+	"IMGID": "300",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "301",
+	"code": "301",
+	"name": " SAMARINDA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "23",
+	"IMGID": "301",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "302",
+	"code": "302",
+	"name": " TARAKA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "23",
+	"IMGID": "302",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "303",
+	"code": "303",
+	"name": " BONTANG",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "23",
+	"IMGID": "303",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "304",
+	"code": "304",
+	"name": " BOLAANGMONGONDOW",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "24",
+	"IMGID": "304",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "305",
+	"code": "305",
+	"name": " MINAHASA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "24",
+	"IMGID": "305",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "306",
+	"code": "306",
+	"name": " KEPULAUANSANGIHETALUD",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "24",
+	"IMGID": "306",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "307",
+	"code": "307",
+	"name": " KEPULAUANTALAUD",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "24",
+	"IMGID": "307",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "308",
+	"code": "308",
+	"name": " MINAHASASELATA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "24",
+	"IMGID": "308",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "309",
+	"code": "309",
+	"name": " MINAHASAUTARA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "24",
+	"IMGID": "309",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "310",
+	"code": "310",
+	"name": " MANADO",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "24",
+	"IMGID": "310",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "311",
+	"code": "311",
+	"name": " BITUNG",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "24",
+	"IMGID": "311",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "312",
+	"code": "312",
+	"name": " TOMOHO",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "24",
+	"IMGID": "312",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "313",
+	"code": "313",
+	"name": " BANGGAIKEPULAUA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "26",
+	"IMGID": "313",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "314",
+	"code": "314",
+	"name": " BANGGAI",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "26",
+	"IMGID": "314",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "315",
+	"code": "315",
+	"name": " MOROWALI",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "26",
+	"IMGID": "315",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "316",
+	"code": "316",
+	"name": " POSO",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "26",
+	"IMGID": "316",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "317",
+	"code": "317",
+	"name": " DONGGALA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "26",
+	"IMGID": "317",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "318",
+	"code": "318",
+	"name": " TOLITOLI",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "26",
+	"IMGID": "318",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "319",
+	"code": "319",
+	"name": " BUOL",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "26",
+	"IMGID": "319",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "320",
+	"code": "320",
+	"name": " PARIGIMOUTONG",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "26",
+	"IMGID": "320",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "321",
+	"code": "321",
+	"name": " TOJOUNAUNA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "26",
+	"IMGID": "321",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "322",
+	"code": "322",
+	"name": " PALU",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "26",
+	"IMGID": "322",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "323",
+	"code": "323",
+	"name": " SELAYAR",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "27",
+	"IMGID": "323",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "324",
+	"code": "324",
+	"name": " BULUKUMBA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "27",
+	"IMGID": "324",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "325",
+	"code": "325",
+	"name": " BANTAENG",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "27",
+	"IMGID": "325",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "326",
+	"code": "326",
+	"name": " JENEPONTO",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "27",
+	"IMGID": "326",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "327",
+	"code": "327",
+	"name": " TAKALAR",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "27",
+	"IMGID": "327",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "328",
+	"code": "328",
+	"name": " GOWA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "27",
+	"IMGID": "328",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "329",
+	"code": "329",
+	"name": " SINJAI",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "27",
+	"IMGID": "329",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "330",
+	"code": "330",
+	"name": " MAROS",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "27",
+	"IMGID": "330",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "331",
+	"code": "331",
+	"name": " BONE",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "27",
+	"IMGID": "331",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "332",
+	"code": "332",
+	"name": " MAKASSAR",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "27",
+	"IMGID": "332",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "333",
+	"code": "333",
+	"name": " PANGKAJENEKEPULAUA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "27",
+	"IMGID": "333",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "334",
+	"code": "334",
+	"name": " BARRU",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "27",
+	"IMGID": "334",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "335",
+	"code": "335",
+	"name": " SOPPENG",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "27",
+	"IMGID": "335",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "336",
+	"code": "336",
+	"name": " WAJO",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "27",
+	"IMGID": "336",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "337",
+	"code": "337",
+	"name": " SIDENRENGRAPPANG",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "27",
+	"IMGID": "337",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "338",
+	"code": "338",
+	"name": " PINRANG",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "27",
+	"IMGID": "338",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "339",
+	"code": "339",
+	"name": " ENREKANG",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "27",
+	"IMGID": "339",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "340",
+	"code": "340",
+	"name": " LUWU",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "27",
+	"IMGID": "340",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "341",
+	"code": "341",
+	"name": " TANATORAJA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "27",
+	"IMGID": "341",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "342",
+	"code": "342",
+	"name": " POLEWALIMAMASA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "25",
+	"IMGID": "342",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "343",
+	"code": "343",
+	"name": " MAJENE",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "25",
+	"IMGID": "343",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "344",
+	"code": "344",
+	"name": " MAMUJU",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "25",
+	"IMGID": "344",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "345",
+	"code": "345",
+	"name": " LUWUUTARA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "27",
+	"IMGID": "345",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "346",
+	"code": "346",
+	"name": " MAMASA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "25",
+	"IMGID": "346",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "347",
+	"code": "347",
+	"name": " MAMUJUUTARA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "25",
+	"IMGID": "347",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "348",
+	"code": "348",
+	"name": " LUWUTIMUR",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "27",
+	"IMGID": "348",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "349",
+	"code": "349",
+	"name": " PAREPARE",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "27",
+	"IMGID": "349",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "350",
+	"code": "350",
+	"name": " PALOPO",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "27",
+	"IMGID": "350",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "351",
+	"code": "351",
+	"name": " BUTO",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "28",
+	"IMGID": "351",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "352",
+	"code": "352",
+	"name": " MUNA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "28",
+	"IMGID": "352",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "353",
+	"code": "353",
+	"name": " KENDARI",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "28",
+	"IMGID": "353",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "354",
+	"code": "354",
+	"name": " KOLAKA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "28",
+	"IMGID": "354",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "355",
+	"code": "355",
+	"name": " KONAWESELATA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "28",
+	"IMGID": "355",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "356",
+	"code": "356",
+	"name": " KOLAKAUTARA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "28",
+	"IMGID": "356",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "357",
+	"code": "357",
+	"name": " BOMBANA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "28",
+	"IMGID": "357",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "358",
+	"code": "358",
+	"name": " WAKATOBI",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "28",
+	"IMGID": "358",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "359",
+	"code": "359",
+	"name": " KENDARI",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "28",
+	"IMGID": "359",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "360",
+	"code": "360",
+	"name": " BAUBAU",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "28",
+	"IMGID": "360",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "361",
+	"code": "361",
+	"name": " BOALEMO",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "29",
+	"IMGID": "361",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "362",
+	"code": "362",
+	"name": " GORONTALO",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "29",
+	"IMGID": "362",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "363",
+	"code": "363",
+	"name": " POHUWATO",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "29",
+	"IMGID": "363",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "364",
+	"code": "364",
+	"name": " BONEBOLANGO",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "29",
+	"IMGID": "364",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "365",
+	"code": "365",
+	"name": " GORONTALO",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "29",
+	"IMGID": "365",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "366",
+	"code": "366",
+	"name": " MALUKUTENGGARABARAT",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "30",
+	"IMGID": "366",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "367",
+	"code": "367",
+	"name": " MALUKUTENGGARA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "30",
+	"IMGID": "367",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "368",
+	"code": "368",
+	"name": " MALUKUTENGAH",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "30",
+	"IMGID": "368",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "369",
+	"code": "369",
+	"name": " BURU",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "30",
+	"IMGID": "369",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "370",
+	"code": "370",
+	"name": " SERAMBAGIANTIMUR",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "30",
+	"IMGID": "370",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "371",
+	"code": "371",
+	"name": " SERAMBAGIANBARAT",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "30",
+	"IMGID": "371",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "372",
+	"code": "372",
+	"name": " KEPULAUANARU",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "30",
+	"IMGID": "372",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "373",
+	"code": "373",
+	"name": " AMBO",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "30",
+	"IMGID": "373",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "374",
+	"code": "374",
+	"name": " HALMAHERATENGAH",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "31",
+	"IMGID": "374",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "375",
+	"code": "375",
+	"name": " KEPULAUANSULA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "31",
+	"IMGID": "375",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "376",
+	"code": "376",
+	"name": " HALMAHERASELATA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "31",
+	"IMGID": "376",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "377",
+	"code": "377",
+	"name": " HALMAHERAUTARA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "31",
+	"IMGID": "377",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "378",
+	"code": "378",
+	"name": " HALMAHERATIMUR",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "31",
+	"IMGID": "378",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "379",
+	"code": "379",
+	"name": " HALMAHERABARAT",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "31",
+	"IMGID": "379",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "380",
+	"code": "380",
+	"name": " TERNATE",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "31",
+	"IMGID": "380",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "381",
+	"code": "381",
+	"name": " TIDOREKEPULAUA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "31",
+	"IMGID": "381",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "382",
+	"code": "382",
+	"name": " FAKFAK",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "33",
+	"IMGID": "382",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "383",
+	"code": "383",
+	"name": " SORONG",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "33",
+	"IMGID": "383",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "384",
+	"code": "384",
+	"name": " MANOKWARI",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "33",
+	"IMGID": "384",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "385",
+	"code": "385",
+	"name": " KAIMANA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "33",
+	"IMGID": "385",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "386",
+	"code": "386",
+	"name": " SORONGSELATA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "33",
+	"IMGID": "386",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "387",
+	"code": "387",
+	"name": " RAJAAMPAT",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "33",
+	"IMGID": "387",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "388",
+	"code": "388",
+	"name": " TELUKBint(11);UNI",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "33",
+	"IMGID": "388",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "389",
+	"code": "389",
+	"name": " TELUKWONDAMA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "33",
+	"IMGID": "389",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "390",
+	"code": "390",
+	"name": " SORONG",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "33",
+	"IMGID": "390",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "391",
+	"code": "391",
+	"name": " MERAUKE",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "32",
+	"IMGID": "391",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "392",
+	"code": "392",
+	"name": " JAYAWIJAYA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "32",
+	"IMGID": "392",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "393",
+	"code": "393",
+	"name": " JAYAPURA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "32",
+	"IMGID": "393",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "394",
+	"code": "394",
+	"name": " NABIRE",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "32",
+	"IMGID": "394",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "395",
+	"code": "395",
+	"name": " YAPENWAROPE",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "32",
+	"IMGID": "395",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "396",
+	"code": "396",
+	"name": " BIAKNUMFOR",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "32",
+	"IMGID": "396",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "397",
+	"code": "397",
+	"name": " PANIAI",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "32",
+	"IMGID": "397",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "398",
+	"code": "398",
+	"name": " PUNCAKJAYA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "32",
+	"IMGID": "398",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "399",
+	"code": "399",
+	"name": " MIMIKA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "32",
+	"IMGID": "399",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "400",
+	"code": "400",
+	"name": " BOVENDIGOEL",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "32",
+	"IMGID": "400",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "401",
+	"code": "401",
+	"name": " MAPPI",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "32",
+	"IMGID": "401",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "402",
+	"code": "402",
+	"name": " ASMAT",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "32",
+	"IMGID": "402",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "403",
+	"code": "403",
+	"name": " YAHUKIMO",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "32",
+	"IMGID": "403",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "404",
+	"code": "404",
+	"name": " PEGUNUNGANBint(11);ANG",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "32",
+	"IMGID": "404",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "405",
+	"code": "405",
+	"name": " TOLIKARA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "32",
+	"IMGID": "405",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "406",
+	"code": "406",
+	"name": " SARMI",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "32",
+	"IMGID": "406",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "407",
+	"code": "407",
+	"name": " KEEROM",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "32",
+	"IMGID": "407",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "408",
+	"code": "408",
+	"name": " WAROPE",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "32",
+	"IMGID": "408",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "409",
+	"code": "409",
+	"name": " SUPIORI",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "32",
+	"IMGID": "409",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "410",
+	"code": "410",
+	"name": " JAYAPURA",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "32",
+	"IMGID": "410",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "411",
+	"code": "411",
+	"name": " Rejang Lebong",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "7",
+	"IMGID": "411",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "412",
+	"code": "412",
+	"name": " Bengkulu Utara",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "7",
+	"IMGID": "412",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "413",
+	"code": "413",
+	"name": " Kaur",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "7",
+	"IMGID": "413",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "414",
+	"code": "414",
+	"name": " Seluma",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "7",
+	"IMGID": "414",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "415",
+	"code": "415",
+	"name": " Muko Muko",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "7",
+	"IMGID": "415",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "416",
+	"code": "416",
+	"name": " Lebong",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "7",
+	"IMGID": "416",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "417",
+	"code": "417",
+	"name": " Kepahiang",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "7",
+	"IMGID": "417",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "418",
+	"code": "418",
+	"name": " Lombok Tengah",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "18",
+	"IMGID": "418",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "419",
+	"code": "419",
+	"name": " Sumbawa",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "18",
+	"IMGID": "419",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "420",
+	"code": "420",
+	"name": " Dompu",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "18",
+	"IMGID": "420",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "421",
+	"code": "421",
+	"name": " Bima",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "18",
+	"IMGID": "421",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "422",
+	"code": "422",
+	"name": " Sumbawa Barat",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "18",
+	"IMGID": "422",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "423",
+	"code": "423",
+	"name": " Mataram",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "18",
+	"IMGID": "423",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "424",
+	"code": "424",
+	"name": " waringin Barat",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "21",
+	"IMGID": "424",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "425",
+	"code": "425",
+	"name": " waringin Timur",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "21",
+	"IMGID": "425",
+	"POPULATION": "0",
+	"active": "1"
+}
+, {
+	"id": "426",
+	"code": "426",
+	"name": " Barito Selata",
+	"DESCRIPTION": "kosong",
+	"PROVINCE_ID": "21",
+	"IMGID": "426",
+	"POPULATION": "0",
+	"active": "1"
+}
+]

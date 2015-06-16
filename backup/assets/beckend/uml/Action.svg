@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="no" ?>
+<!-- Created using docfacto Beermat -->
+
+<!--
+- UML Action SVG
+- Created: September 27, 2013
+- Author: Kelvin Porter - Docfacto ltd
+-->
+<!-- Copyleft, Free Art License - 
+right to freely copy, distribute and transform this work -->
+<svg contentScriptType="text/ecmascript" contentStyleType="text/css" height="72.0px" preserveAspectRatio="xMidYMid meet" version="1.0" width="158.0px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify"> 
+	<!--A UML Action -->  <!-- Change the translate to the required x,y position -->
+	<g class="uml.action" transform="translate(10.0 11.0)">  
+    	<rect class="uml.action" fill="#fcfcfc" height="50" rx="20" ry="20" stroke="#000000" stroke-dasharray="none" stroke-width="2" width="136" x="0.0" y="0"></rect>
+
+	    <!-- Change the text 'Action' to the name of your action -->
+		<text font-family="Lucida Grande" font-size="11" x="47" y="30.0">Action</text>
+  	</g>
+</svg>

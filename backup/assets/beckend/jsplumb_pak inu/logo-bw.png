@@ -1,0 +1,12 @@
+'active') VALUES (39, N'2-5-3', 2, 36, N'Functional Level', NULL, N'fa-wrench', N'Functional Level', N'HRD-ORG-FNC.ASP?Act=List', 1)
+INSERT INTO 'TR_GUI' ('id', 'code', 'tab', 'parent_id', 'nama', 'descr', 'icons', 'caption', 'link', 'active') VALUES (40, N'2-5-4', 2, 36, N'Work Group', NULL, N'fa-wrench', N'Work Group', N'HRD-ORG-GRP.ASP?Act=List', 1)
+INSERT INTO 'TR_GUI' ('id', 'code', 'tab', 'parent_id', 'nama', 'descr', 'icons', 'caption', 'link', 'active') VALUES (41, N'2-5-5', 2, 36, N'DIV 3VIEW', N'', N'fa-wrench', N'DIV 3VIEW', N'HRD-ORG-TREEVIEW.ASP?Act=List', 1)
+INSERT INTO 'TR_GUI' ('id', 'code', 'tab', 'parent_id', 'nama', 'descr', 'icons', 'caption', 'link', 'active') VALUES (42, N'3-1', 3, 60, N'Product Management', N'', N'fa-tags', N'Product Management', N'', 1)
+INSERT INTO 'TR_GUI' ('id', 'code', 'tab', 'parent_id', 'nama', 'descr', 'icons', 'caption', 'link', 'active') VALUES (43, N'3-1-1', 3, 42, N'Product Group', NULL, N'fa-tags', N'Product Group', N'ITEM-GRP.ASP?Act=List', 1)
+INSERT INTO 'TR_GUI' ('id', 'code', 'tab', 'parent_id', 'nama', 'descr', 'icons', 'caption', 'link', 'active') VALUES (44, N'3-1-3', 3, 42, N'Product Category', N'', N'fa-tags', N'Product Category', N'ITEM-CTG.ASP?Act=List', 1)
+INSERT INTO 'TR_GUI' ('id', 'code', 'tab', 'parent_id', 'nama', 'descr', 'icons', 'caption', 'link', 'active') VALUES (45, N'3-1-2', 3, 42, N'Product Type', N'', N'fa-tags', N'Product Type', N'ITEM-TYPE.ASP?Act=List', 1)
+INSERT INTO 'TR_GUI' ('id', 'code', 'tab', 'parent_id', 'nama', 'descr', 'icons', 'caption', 'link', 'active') VALUES (81, N'3-2-2', 3, 85, N'X Parameter', N'', N'fa-tags', N'X Parameter', N'SPC-X.ASP?Act=List', 1)
+INSERT INTO 'TR_GUI' ('id', 'code', 'tab', 'parent_id', 'nama', 'descr', 'icons', 'caption', 'link', 'active') VALUES (82, N'3-2-3', 3, 85, N'Y Parameter', N'', N'fa-tags', N'Y Parameter', N'SPC-Y.ASP?Act=List', 1)
+INSERT INTO 'TR_GUI' ('id', 'code', 'tab', 'parent_id', 'nama', 'descr', 'icons', 'caption', 'link', 'active') VALUES (83, N'3-2-4', 3, 85, N'Z Parameter', N'', N'fa-tags', N'Z Parameter', N'SPC-Z.ASP?Act=List', 1)
+INSERT INTO 'TR_GUI' ('id', 'code', 'tab', 'parent_id', 'nama', 'descr', 'icons', 'caption', 'link', 'active') VALUES (84, N'2-5-6', 2, 36, N'ORG 3VIEW', N'', N'fa-tags', N'ORG 3VIEW', N'HRD-ORG-ORG3VIEW.ASP?Act=List', 1)
+INSERT INTO 'TR_GUI' ('id', 'code', 'tab', 'parent_id', 'nama', 'descr', 'icons', 'caption', 'link', 'active') VALUES (85, N'3-2', 3, 60, N'Product 

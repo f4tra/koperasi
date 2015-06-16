@@ -1,0 +1,2 @@
+# koperasi
+PT.GAI

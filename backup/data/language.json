@@ -1,0 +1,3607 @@
+[
+{
+	"id": "1",
+	"code": "aaa",
+	"name": "Ghotuo",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "2",
+	"code": "aab",
+	"name": "Alumu-Tesu",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "3",
+	"code": "aac",
+	"name": "Ari",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "4",
+	"code": "aad",
+	"name": "Amal",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "5",
+	"code": "aae",
+	"name": "Arbereshe Albania",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "6",
+	"code": "aaf",
+	"name": "Aranada",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "7",
+	"code": "aag",
+	"name": "Ambrak",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "8",
+	"code": "aah",
+	"name": "Abu' Arapesh",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "9",
+	"code": "aai",
+	"name": "Arifama-Miniafia",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "10",
+	"code": "aak",
+	"name": "Ankave",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "11",
+	"code": "aal",
+	"name": "Afade",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "12",
+	"code": "aam",
+	"name": "Aramanik",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "13",
+	"code": "aa",
+	"name": "Anambé",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "14",
+	"code": "aao",
+	"name": "Algerian Saharan Arabic",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "15",
+	"code": "aap",
+	"name": "Pará Arára",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "16",
+	"code": "aaq",
+	"name": "Eastern Abnaki",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "17",
+	"code": "aar",
+	"name": "Afar",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "18",
+	"code": "aas",
+	"name": "Aasáx",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "19",
+	"code": "aat",
+	"name": "Arvanitika Albania",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "20",
+	"code": "aau",
+	"name": "Abau",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "21",
+	"code": "aaw",
+	"name": "Solong",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "22",
+	"code": "aax",
+	"name": "Mandobo Atas",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "23",
+	"code": "aaz",
+	"name": "Amarasi",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "24",
+	"code": "aba",
+	"name": "Abé",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "25",
+	"code": "abb",
+	"name": "Banko",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "26",
+	"code": "abc",
+	"name": "Ambala Ayta",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "27",
+	"code": "abd",
+	"name": "Manide",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "28",
+	"code": "abe",
+	"name": "Western Abnaki",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "29",
+	"code": "abf",
+	"name": "Abai Sungai",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "30",
+	"code": "abg",
+	"name": "Abaga",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "31",
+	"code": "abh",
+	"name": "Tajiki Arabic",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "32",
+	"code": "abi",
+	"name": "Abidji",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "33",
+	"code": "abj",
+	"name": "Aka-Bea",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "34",
+	"code": "abk",
+	"name": "Abkhazia",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "35",
+	"code": "abl",
+	"name": "Lampung Nyo",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "36",
+	"code": "abm",
+	"name": "Abanyom",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "37",
+	"code": "ab",
+	"name": "Abua",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "38",
+	"code": "abo",
+	"name": "Abo",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "39",
+	"code": "abp",
+	"name": "Abellen Ayta",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "40",
+	"code": "abq",
+	"name": "Abaza",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "41",
+	"code": "abr",
+	"name": "Abro",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "42",
+	"code": "abs",
+	"name": "Ambonese Malay",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "43",
+	"code": "abt",
+	"name": "Ambulas",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "44",
+	"code": "abu",
+	"name": "Abure",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "45",
+	"code": "abv",
+	"name": "Baharna Arabic",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "46",
+	"code": "abw",
+	"name": "Pal",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "47",
+	"code": "abx",
+	"name": "Inabakno",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "48",
+	"code": "aby",
+	"name": "Aneme Wake",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "49",
+	"code": "abz",
+	"name": "Abui",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "50",
+	"code": "aca",
+	"name": "Achagua",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "51",
+	"code": "acb",
+	"name": "Áncá",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "52",
+	"code": "acd",
+	"name": "Gikyode",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "53",
+	"code": "ace",
+	"name": "Achinese",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "54",
+	"code": "acf",
+	"name": "Saint Lucian Creole French",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "55",
+	"code": "ach",
+	"name": "Acoli",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "56",
+	"code": "aci",
+	"name": "Aka-Cari",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "57",
+	"code": "ack",
+	"name": "Aka-Kora",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "58",
+	"code": "acl",
+	"name": "Akar-Bale",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "59",
+	"code": "acm",
+	"name": "Mesopotamian Arabic",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "60",
+	"code": "ac",
+	"name": "Achang",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "61",
+	"code": "acp",
+	"name": "Eastern Acipa",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "62",
+	"code": "acq",
+	"name": "Ta'izzi-Adeni Arabic",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "63",
+	"code": "acr",
+	"name": "Achi",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "64",
+	"code": "acs",
+	"name": "Acroá",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "65",
+	"code": "act",
+	"name": "Achterhoeks",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "66",
+	"code": "acu",
+	"name": "Achuar-Shiwiar",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "67",
+	"code": "acv",
+	"name": "Achumawi",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "68",
+	"code": "acw",
+	"name": "Hijazi Arabic",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "69",
+	"code": "acx",
+	"name": "Omani Arabic",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "70",
+	"code": "acy",
+	"name": "Cypriot Arabic",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "71",
+	"code": "acz",
+	"name": "Achero",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "72",
+	"code": "ada",
+	"name": "Adangme",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "73",
+	"code": "adb",
+	"name": "Adabe",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "74",
+	"code": "add",
+	"name": "Dzodinka",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "75",
+	"code": "ade",
+	"name": "Adele",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "76",
+	"code": "adf",
+	"name": "Dhofari Arabic",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "77",
+	"code": "adg",
+	"name": "Andegerebinha",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "78",
+	"code": "adh",
+	"name": "Adhola",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "79",
+	"code": "adi",
+	"name": "Adi",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "80",
+	"code": "adj",
+	"name": "Adioukrou",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "81",
+	"code": "adl",
+	"name": "Galo",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "82",
+	"code": "ad",
+	"name": "Adang",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "83",
+	"code": "ado",
+	"name": "Abu",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "84",
+	"code": "adp",
+	"name": "Adap",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "85",
+	"code": "adq",
+	"name": "Adangbe",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "86",
+	"code": "adr",
+	"name": "Adonara",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "87",
+	"code": "ads",
+	"name": "Adamorobe Sign Language",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "88",
+	"code": "adt",
+	"name": "Adnyamathanha",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "89",
+	"code": "adu",
+	"name": "Aduge",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "90",
+	"code": "adw",
+	"name": "Amundava",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "91",
+	"code": "adx",
+	"name": "Amdo Tibeta",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "92",
+	"code": "ady",
+	"name": "Adyghe",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "93",
+	"code": "adz",
+	"name": "Adzera",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "94",
+	"code": "aea",
+	"name": "Areba",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "95",
+	"code": "aeb",
+	"name": "Tunisian Arabic",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "96",
+	"code": "aec",
+	"name": "Saidi Arabic",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "97",
+	"code": "aed",
+	"name": "Argentine Sign Language",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "98",
+	"code": "aee",
+	"name": "Northeast Pashayi",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "99",
+	"code": "aek",
+	"name": "Haeke",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "100",
+	"code": "ael",
+	"name": "Ambele",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "101",
+	"code": "aem",
+	"name": "Arem",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "102",
+	"code": "ae",
+	"name": "Armenian Sign Language",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "103",
+	"code": "aeq",
+	"name": "Aer",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "104",
+	"code": "aer",
+	"name": "Eastern Arrernte",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "105",
+	"code": "aes",
+	"name": "Alsea",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "106",
+	"code": "aeu",
+	"name": "Akeu",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "107",
+	"code": "aew",
+	"name": "Ambakich",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "108",
+	"code": "aey",
+	"name": "Amele",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "109",
+	"code": "aez",
+	"name": "Aeka",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "110",
+	"code": "afb",
+	"name": "Gulf Arabic",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "111",
+	"code": "afd",
+	"name": "Andai",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "112",
+	"code": "afe",
+	"name": "Putukwam",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "113",
+	"code": "afg",
+	"name": "Afghan Sign Language",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "114",
+	"code": "afh",
+	"name": "Afrihili",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "115",
+	"code": "afi",
+	"name": "Akrukay",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "116",
+	"code": "afk",
+	"name": "Nanubae",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "117",
+	"code": "af",
+	"name": "Defaka",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "118",
+	"code": "afo",
+	"name": "Eloyi",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "119",
+	"code": "afp",
+	"name": "Tapei",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "120",
+	"code": "afr",
+	"name": "Afrikaans",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "121",
+	"code": "afs",
+	"name": "Afro-Seminole Creole",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "122",
+	"code": "aft",
+	"name": "Afitti",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "123",
+	"code": "afu",
+	"name": "Awutu",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "124",
+	"code": "afz",
+	"name": "Obokuitai",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "125",
+	"code": "aga",
+	"name": "Aguano",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "126",
+	"code": "agb",
+	"name": "Legbo",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "127",
+	"code": "agc",
+	"name": "Agatu",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "128",
+	"code": "agd",
+	"name": "Agarabi",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "129",
+	"code": "age",
+	"name": "Angal",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "130",
+	"code": "agf",
+	"name": "Arguni",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "131",
+	"code": "agg",
+	"name": "Angor",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "132",
+	"code": "agh",
+	"name": "Ngelima",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "133",
+	"code": "agi",
+	"name": "Agariya",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "134",
+	"code": "agj",
+	"name": "Argobba",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "135",
+	"code": "agk",
+	"name": "Isarog Agta",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "136",
+	"code": "agl",
+	"name": "Fembe",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "137",
+	"code": "agm",
+	"name": "Angaataha",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "138",
+	"code": "ag",
+	"name": "Agutayne",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "139",
+	"code": "ago",
+	"name": "Tainae",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "140",
+	"code": "agq",
+	"name": "Aghem",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "141",
+	"code": "agr",
+	"name": "Aguaruna",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "142",
+	"code": "ags",
+	"name": "Esimbi",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "143",
+	"code": "agt",
+	"name": "Central Cagayan Agta",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "144",
+	"code": "agu",
+	"name": "Aguacateco",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "145",
+	"code": "agv",
+	"name": "Remontado Dumagat",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "146",
+	"code": "agw",
+	"name": "Kahua",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "147",
+	"code": "agx",
+	"name": "Aghul",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "148",
+	"code": "agy",
+	"name": "Southern Alta",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "149",
+	"code": "agz",
+	"name": "Mt. Iriga Agta",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "150",
+	"code": "aha",
+	"name": "Ahanta",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "151",
+	"code": "ahb",
+	"name": "Axamb",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "152",
+	"code": "ahg",
+	"name": "Qimant",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "153",
+	"code": "ahh",
+	"name": "Aghu",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "154",
+	"code": "ahi",
+	"name": "Tiagbamrin Aizi",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "155",
+	"code": "ahk",
+	"name": "Akha",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "156",
+	"code": "ahl",
+	"name": "Igo",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "157",
+	"code": "ahm",
+	"name": "Mobumrin Aizi",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "158",
+	"code": "ah",
+	"name": "Àhà",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "159",
+	"code": "aho",
+	"name": "Ahom",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "160",
+	"code": "ahp",
+	"name": "Aproumu Aizi",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "161",
+	"code": "ahr",
+	"name": "Ahirani",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "162",
+	"code": "ahs",
+	"name": "Ashe",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "163",
+	"code": "aht",
+	"name": "Ahtena",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "164",
+	"code": "aia",
+	"name": "Arosi",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "165",
+	"code": "aib",
+	"name": "Ainu (China)",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "166",
+	"code": "aic",
+	"name": "Ainbai",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "167",
+	"code": "aid",
+	"name": "Alngith",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "168",
+	"code": "aie",
+	"name": "Amara",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "169",
+	"code": "aif",
+	"name": "Agi",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "170",
+	"code": "aig",
+	"name": "Antigua and Barbuda Creole English",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "171",
+	"code": "aih",
+	"name": "Ai-Cham",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "172",
+	"code": "aii",
+	"name": "Assyrian Neo-Aramaic",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "173",
+	"code": "aij",
+	"name": "Lishanid Nosha",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "174",
+	"code": "aik",
+	"name": "Ake",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "175",
+	"code": "ail",
+	"name": "Aimele",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "176",
+	"code": "aim",
+	"name": "Aimol",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "177",
+	"code": "ai",
+	"name": "Ainu (Japan)",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "178",
+	"code": "aio",
+	"name": "Aito",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "179",
+	"code": "aip",
+	"name": "Burumakok",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "180",
+	"code": "aiq",
+	"name": "Aimaq",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "181",
+	"code": "air",
+	"name": "Airora",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "182",
+	"code": "ais",
+	"name": "Nataoran Amis",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "183",
+	"code": "ait",
+	"name": "Arikem",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "184",
+	"code": "aiw",
+	"name": "Aari",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "185",
+	"code": "aix",
+	"name": "Aigho",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "186",
+	"code": "aiy",
+	"name": "Ali",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "187",
+	"code": "aja",
+	"name": "Aja (Sudan)",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "188",
+	"code": "ajg",
+	"name": "Aja (Benin)",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "189",
+	"code": "aji",
+	"name": "Ajië",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "190",
+	"code": "aj",
+	"name": "Andaji",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "191",
+	"code": "ajp",
+	"name": "South Levantine Arabic",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "192",
+	"code": "ajt",
+	"name": "Judeo-Tunisian Arabic",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "193",
+	"code": "aju",
+	"name": "Judeo-Moroccan Arabic",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "194",
+	"code": "ajw",
+	"name": "Ajawa",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "195",
+	"code": "ajz",
+	"name": "Amri Karbi",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "196",
+	"code": "aka",
+	"name": "Aka",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "197",
+	"code": "akb",
+	"name": "Batak Angkola",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "198",
+	"code": "akc",
+	"name": "Mpur",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "199",
+	"code": "akd",
+	"name": "Ukpet-Ehom",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "200",
+	"code": "ake",
+	"name": "Akawaio",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "201",
+	"code": "akf",
+	"name": "Akpa",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "202",
+	"code": "akg",
+	"name": "Anakalangu",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "203",
+	"code": "akh",
+	"name": "Angal Heneng",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "204",
+	"code": "aki",
+	"name": "Aiome",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "205",
+	"code": "akj",
+	"name": "Aka-Jeru",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "206",
+	"code": "akk",
+	"name": "Akkadia",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "207",
+	"code": "akl",
+	"name": "Aklano",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "208",
+	"code": "akm",
+	"name": "Aka-Bo",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "209",
+	"code": "ako",
+	"name": "Akurio",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "210",
+	"code": "akp",
+	"name": "Siwu",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "211",
+	"code": "akq",
+	"name": "Ak",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "212",
+	"code": "akr",
+	"name": "Araki",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "213",
+	"code": "aks",
+	"name": "Akaselem",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "214",
+	"code": "akt",
+	"name": "Akolet",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "215",
+	"code": "aku",
+	"name": "Akum",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "216",
+	"code": "akv",
+	"name": "Akhvakh",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "217",
+	"code": "akw",
+	"name": "Akwa",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "218",
+	"code": "akx",
+	"name": "Aka-Kede",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "219",
+	"code": "aky",
+	"name": "Aka-Kol",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "220",
+	"code": "akz",
+	"name": "Alabama",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "221",
+	"code": "ala",
+	"name": "Alago",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "222",
+	"code": "alc",
+	"name": "Qawasqar",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "223",
+	"code": "ald",
+	"name": "Alladia",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "224",
+	"code": "ale",
+	"name": "Aleut",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "225",
+	"code": "alf",
+	"name": "Alege",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "226",
+	"code": "alh",
+	"name": "Alawa",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "227",
+	"code": "ali",
+	"name": "Amaimo",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "228",
+	"code": "alj",
+	"name": "Alanga",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "229",
+	"code": "alk",
+	"name": "Alak",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "230",
+	"code": "all",
+	"name": "Allar",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "231",
+	"code": "alm",
+	"name": "Amblong",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "232",
+	"code": "al",
+	"name": "Gheg Albania",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "233",
+	"code": "alo",
+	"name": "Larike-Wakasihu",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "234",
+	"code": "alp",
+	"name": "Alune",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "235",
+	"code": "alq",
+	"name": "Algonqui",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "236",
+	"code": "alr",
+	"name": "Alutor",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "237",
+	"code": "als",
+	"name": "Tosk Albania",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "238",
+	"code": "alt",
+	"name": "Southern Altai",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "239",
+	"code": "alu",
+	"name": "'Are'are",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "240",
+	"code": "alw",
+	"name": "Alaba-K’abeena",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "241",
+	"code": "alx",
+	"name": "Amol",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "242",
+	"code": "aly",
+	"name": "Alyawarr",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "243",
+	"code": "alz",
+	"name": "Alur",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "244",
+	"code": "ama",
+	"name": "Amanayé",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "245",
+	"code": "amb",
+	"name": "Ambo",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "246",
+	"code": "amc",
+	"name": "Amahuaca",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "247",
+	"code": "ame",
+	"name": "Yanesha'",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "248",
+	"code": "amf",
+	"name": "Hamer-Banna",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "249",
+	"code": "amg",
+	"name": "Amurdak",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "250",
+	"code": "amh",
+	"name": "Amharic",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "251",
+	"code": "ami",
+	"name": "Amis",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "252",
+	"code": "amj",
+	"name": "Amdang",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "253",
+	"code": "amk",
+	"name": "Ambai",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "254",
+	"code": "aml",
+	"name": "War-Jaintia",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "255",
+	"code": "amm",
+	"name": "Ama (Papua New Guinea)",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "256",
+	"code": "am",
+	"name": "Amanab",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "257",
+	"code": "amo",
+	"name": "Amo",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "258",
+	"code": "amp",
+	"name": "Alamblak",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "259",
+	"code": "amq",
+	"name": "Amahai",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "260",
+	"code": "amr",
+	"name": "Amarakaeri",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "261",
+	"code": "ams",
+	"name": "Southern Amami-Oshima",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "262",
+	"code": "amt",
+	"name": "Amto",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "263",
+	"code": "amu",
+	"name": "Guerrero Amuzgo",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "264",
+	"code": "amv",
+	"name": "Ambelau",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "265",
+	"code": "amw",
+	"name": "Western Neo-Aramaic",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "266",
+	"code": "amx",
+	"name": "Anmatyerre",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "267",
+	"code": "amy",
+	"name": "Ami",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "268",
+	"code": "amz",
+	"name": "Atampaya",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "269",
+	"code": "ana",
+	"name": "Andaqui",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "270",
+	"code": "anb",
+	"name": "Andoa",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "271",
+	"code": "anc",
+	"name": "Ngas",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "272",
+	"code": "and",
+	"name": "Ansus",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "273",
+	"code": "ane",
+	"name": "Xârâcùù",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "274",
+	"code": "anf",
+	"name": "Animere",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "275",
+	"code": "ang",
+	"name": "Old English (ca. 450-1100)",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "276",
+	"code": "anh",
+	"name": "Nend",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "277",
+	"code": "ani",
+	"name": "Andi",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "278",
+	"code": "anj",
+	"name": "Anor",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "279",
+	"code": "ank",
+	"name": "Goemai",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "280",
+	"code": "anl",
+	"name": "Anu-Hkongso Chi",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "281",
+	"code": "anm",
+	"name": "Anal",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "282",
+	"code": "an",
+	"name": "Obolo",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "283",
+	"code": "ano",
+	"name": "Andoque",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "284",
+	"code": "anp",
+	"name": "Angika",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "285",
+	"code": "anq",
+	"name": "Jarawa (India)",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "286",
+	"code": "anr",
+	"name": "Andh",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "287",
+	"code": "ans",
+	"name": "Anserma",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "288",
+	"code": "ant",
+	"name": "Antakarinya",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "289",
+	"code": "anu",
+	"name": "Anuak",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "290",
+	"code": "anv",
+	"name": "Denya",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "291",
+	"code": "anw",
+	"name": "Anaang",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "292",
+	"code": "anx",
+	"name": "Andra-Hus",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "293",
+	"code": "any",
+	"name": "Anyi",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "294",
+	"code": "anz",
+	"name": "Anem",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "295",
+	"code": "aoa",
+	"name": "Angolar",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "296",
+	"code": "aob",
+	"name": "Abom",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "297",
+	"code": "aoc",
+	"name": "Pemo",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "298",
+	"code": "aod",
+	"name": "Andarum",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "299",
+	"code": "aoe",
+	"name": "Angal Ene",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "300",
+	"code": "aof",
+	"name": "Bragat",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "301",
+	"code": "aog",
+	"name": "Angoram",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "302",
+	"code": "aoh",
+	"name": "Arma",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "303",
+	"code": "aoi",
+	"name": "Anindilyakwa",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "304",
+	"code": "aoj",
+	"name": "Mufia",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "305",
+	"code": "aok",
+	"name": "Arhö",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "306",
+	"code": "aol",
+	"name": "Alor",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "307",
+	"code": "aom",
+	"name": "Ömie",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "308",
+	"code": "ao",
+	"name": "Bumbita Arapesh",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "309",
+	"code": "aor",
+	"name": "Aore",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "310",
+	"code": "aos",
+	"name": "Taikat",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "311",
+	"code": "aot",
+	"name": "A'tong",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "312",
+	"code": "aou",
+	"name": "A'ou",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "313",
+	"code": "aox",
+	"name": "Atorada",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "314",
+	"code": "aoz",
+	"name": "Uab Meto",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "315",
+	"code": "apb",
+	"name": "Sa'a",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "316",
+	"code": "apc",
+	"name": "North Levantine Arabic",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "317",
+	"code": "apd",
+	"name": "Sudanese Arabic",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "318",
+	"code": "ape",
+	"name": "Bukiyip",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "319",
+	"code": "apf",
+	"name": "Pahanan Agta",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "320",
+	"code": "apg",
+	"name": "Ampanang",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "321",
+	"code": "aph",
+	"name": "Athpariya",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "322",
+	"code": "api",
+	"name": "Apiaká",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "323",
+	"code": "apj",
+	"name": "Jicarilla Apache",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "324",
+	"code": "apk",
+	"name": "Kiowa Apache",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "325",
+	"code": "apl",
+	"name": "Lipan Apache",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "326",
+	"code": "apm",
+	"name": "Mescalero-Chiricahua Apache",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "327",
+	"code": "ap",
+	"name": "Apinayé",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "328",
+	"code": "apo",
+	"name": "Ambul",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "329",
+	"code": "app",
+	"name": "Apma",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "330",
+	"code": "apq",
+	"name": "A-Pucikwar",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "331",
+	"code": "apr",
+	"name": "Arop-Lokep",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "332",
+	"code": "aps",
+	"name": "Arop-Sissano",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "333",
+	"code": "apt",
+	"name": "Apatani",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "334",
+	"code": "apu",
+	"name": "Apurinã",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "335",
+	"code": "apv",
+	"name": "Alapmunte",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "336",
+	"code": "apw",
+	"name": "Western Apache",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "337",
+	"code": "apx",
+	"name": "Aputai",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "338",
+	"code": "apy",
+	"name": "Apalaí",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "339",
+	"code": "apz",
+	"name": "Safeyoka",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "340",
+	"code": "aqc",
+	"name": "Archi",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "341",
+	"code": "aqd",
+	"name": "Ampari Dogo",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "342",
+	"code": "aqg",
+	"name": "Arigidi",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "343",
+	"code": "aqm",
+	"name": "Atohwaim",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "344",
+	"code": "aq",
+	"name": "Northern Alta",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "345",
+	"code": "aqp",
+	"name": "Atakapa",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "346",
+	"code": "aqr",
+	"name": "Arhâ",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "347",
+	"code": "aqz",
+	"name": "Akuntsu",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "348",
+	"code": "ara",
+	"name": "Arabic",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "349",
+	"code": "arb",
+	"name": "Standard Arabic",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "350",
+	"code": "arc",
+	"name": "Official Aramaic (700-300 BCE)",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "351",
+	"code": "ard",
+	"name": "Arabana",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "352",
+	"code": "are",
+	"name": "Western Arrarnta",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "353",
+	"code": "arg",
+	"name": "Aragonese",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "354",
+	"code": "arh",
+	"name": "Arhuaco",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "355",
+	"code": "ari",
+	"name": "Arikara",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "356",
+	"code": "arj",
+	"name": "Arapaso",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "357",
+	"code": "ark",
+	"name": "Arikapú",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "358",
+	"code": "arl",
+	"name": "Arabela",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "359",
+	"code": "ar",
+	"name": "Mapudungu",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "360",
+	"code": "aro",
+	"name": "Araona",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "361",
+	"code": "arp",
+	"name": "Arapaho",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "362",
+	"code": "arq",
+	"name": "Algerian Arabic",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "363",
+	"code": "arr",
+	"name": "Karo (Brazil)",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "364",
+	"code": "ars",
+	"name": "Najdi Arabic",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "365",
+	"code": "aru",
+	"name": "Aruá (Amazonas State)",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "366",
+	"code": "arv",
+	"name": "Arbore",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "367",
+	"code": "arw",
+	"name": "Arawak",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "368",
+	"code": "arx",
+	"name": "Aruá (Rodonia State)",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "369",
+	"code": "ary",
+	"name": "Moroccan Arabic",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "370",
+	"code": "arz",
+	"name": "Egyptian Arabic",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "371",
+	"code": "asa",
+	"name": "Asu (Tanzania)",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "372",
+	"code": "asb",
+	"name": "Assiniboine",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "373",
+	"code": "asc",
+	"name": "Casuarina Coast Asmat",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "374",
+	"code": "asd",
+	"name": "Asas",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "375",
+	"code": "ase",
+	"name": "American Sign Language",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "376",
+	"code": "asf",
+	"name": "Australian Sign Language",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "377",
+	"code": "asg",
+	"name": "Cishingini",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "378",
+	"code": "ash",
+	"name": "Abishira",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "379",
+	"code": "asi",
+	"name": "Buruwai",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "380",
+	"code": "asj",
+	"name": "Sari",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "381",
+	"code": "ask",
+	"name": "Ashku",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "382",
+	"code": "asl",
+	"name": "Asilulu",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "383",
+	"code": "asm",
+	"name": "Assamese",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "384",
+	"code": "as",
+	"name": "Xingú Asuriní",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "385",
+	"code": "aso",
+	"name": "Dano",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "386",
+	"code": "asp",
+	"name": "Algerian Sign Language",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "387",
+	"code": "asq",
+	"name": "Austrian Sign Language",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "388",
+	"code": "asr",
+	"name": "Asuri",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "389",
+	"code": "ass",
+	"name": "Ipulo",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "390",
+	"code": "ast",
+	"name": "Asturia",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "391",
+	"code": "asu",
+	"name": "Tocantins Asurini",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "392",
+	"code": "asv",
+	"name": "Asoa",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "393",
+	"code": "asw",
+	"name": "Australian Aborigines Sign Language",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "394",
+	"code": "asx",
+	"name": "Muratayak",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "395",
+	"code": "asy",
+	"name": "Yaosakor Asmat",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "396",
+	"code": "asz",
+	"name": "As",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "397",
+	"code": "ata",
+	"name": "Pele-Ata",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "398",
+	"code": "atb",
+	"name": "Zaiwa",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "399",
+	"code": "atc",
+	"name": "Atsahuaca",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "400",
+	"code": "atd",
+	"name": "Ata Manobo",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "401",
+	"code": "ate",
+	"name": "Atemble",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "402",
+	"code": "atg",
+	"name": "Ivbie North-Okpela-Arhe",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "403",
+	"code": "ati",
+	"name": "Attié",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "404",
+	"code": "atj",
+	"name": "Atikamekw",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "405",
+	"code": "atk",
+	"name": "Ati",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "406",
+	"code": "atl",
+	"name": "Mt. Iraya Agta",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "407",
+	"code": "atm",
+	"name": "Ata",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "408",
+	"code": "at",
+	"name": "Ashtiani",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "409",
+	"code": "ato",
+	"name": "Atong",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "410",
+	"code": "atp",
+	"name": "Pudtol Atta",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "411",
+	"code": "atq",
+	"name": "Aralle-Tabulaha",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "412",
+	"code": "atr",
+	"name": "Waimiri-Atroari",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "413",
+	"code": "ats",
+	"name": "Gros Ventre",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "414",
+	"code": "att",
+	"name": "Pamplona Atta",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "415",
+	"code": "atu",
+	"name": "Reel",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "416",
+	"code": "atv",
+	"name": "Northern Altai",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "417",
+	"code": "atw",
+	"name": "Atsugewi",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "418",
+	"code": "atx",
+	"name": "Arutani",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "419",
+	"code": "aty",
+	"name": "Aneityum",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "420",
+	"code": "atz",
+	"name": "Arta",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "421",
+	"code": "aua",
+	"name": "Asumboa",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "422",
+	"code": "aub",
+	"name": "Alugu",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "423",
+	"code": "auc",
+	"name": "Waorani",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "424",
+	"code": "aud",
+	"name": "Anuta",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "425",
+	"code": "aue",
+	"name": "auei",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "426",
+	"code": "aug",
+	"name": "Aguna",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "427",
+	"code": "auh",
+	"name": "Aushi",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "428",
+	"code": "aui",
+	"name": "Anuki",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "429",
+	"code": "auj",
+	"name": "Awjilah",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "430",
+	"code": "auk",
+	"name": "Heyo",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "431",
+	"code": "aul",
+	"name": "Aulua",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "432",
+	"code": "aum",
+	"name": "Asu (Nigeria)",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "433",
+	"code": "au",
+	"name": "Molmo One",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "434",
+	"code": "auo",
+	"name": "Auyokawa",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "435",
+	"code": "aup",
+	"name": "Makayam",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "436",
+	"code": "auq",
+	"name": "Anus",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "437",
+	"code": "aur",
+	"name": "Aruek",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "438",
+	"code": "aut",
+	"name": "Austral",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "439",
+	"code": "auu",
+	"name": "Auye",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "440",
+	"code": "auw",
+	"name": "Awyi",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "441",
+	"code": "aux",
+	"name": "Aurá",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "442",
+	"code": "auy",
+	"name": "Awiyaana",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "443",
+	"code": "auz",
+	"name": "Uzbeki Arabic",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "444",
+	"code": "ava",
+	"name": "Avaric",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "445",
+	"code": "avb",
+	"name": "Avau",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "446",
+	"code": "avd",
+	"name": "Alviri-Vidari",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "447",
+	"code": "ave",
+	"name": "Avesta",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "448",
+	"code": "avi",
+	"name": "Avikam",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "449",
+	"code": "avk",
+	"name": "Kotava",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "450",
+	"code": "avl",
+	"name": "Eastern Egyptian Bedawi Arabic",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "451",
+	"code": "avm",
+	"name": "Angkamuthi",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "452",
+	"code": "av",
+	"name": "Avatime",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "453",
+	"code": "avo",
+	"name": "Agavotaguerra",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "454",
+	"code": "avs",
+	"name": "Aushiri",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "455",
+	"code": "avt",
+	"name": "Au",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "456",
+	"code": "avu",
+	"name": "Avokaya",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "457",
+	"code": "avv",
+	"name": "Avá-Canoeiro",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "458",
+	"code": "awa",
+	"name": "Awadhi",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "459",
+	"code": "awb",
+	"name": "Awa (Papua New Guinea)",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "460",
+	"code": "awc",
+	"name": "Cicipu",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "461",
+	"code": "awe",
+	"name": "Awetí",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "462",
+	"code": "awg",
+	"name": "Anguthimri",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "463",
+	"code": "awh",
+	"name": "Awbono",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "464",
+	"code": "awi",
+	"name": "Aekyom",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "465",
+	"code": "awk",
+	"name": "Awabakal",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "466",
+	"code": "awm",
+	"name": "Arawum",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "467",
+	"code": "aw",
+	"name": "Awngi",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "468",
+	"code": "awo",
+	"name": "Awak",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "469",
+	"code": "awr",
+	"name": "Awera",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "470",
+	"code": "aws",
+	"name": "South Awyu",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "471",
+	"code": "awt",
+	"name": "Araweté",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "472",
+	"code": "awu",
+	"name": "Central Awyu",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "473",
+	"code": "awv",
+	"name": "Jair Awyu",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "474",
+	"code": "aww",
+	"name": "Awu",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "475",
+	"code": "awx",
+	"name": "Awara",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "476",
+	"code": "awy",
+	"name": "Edera Awyu",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "477",
+	"code": "axb",
+	"name": "Abipo",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "478",
+	"code": "axe",
+	"name": "Ayerrerenge",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "479",
+	"code": "axg",
+	"name": "Mato Grosso Arára",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "480",
+	"code": "axk",
+	"name": "Yaka (Central African Republic)",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "481",
+	"code": "axl",
+	"name": "Lower Southern Aranda",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "482",
+	"code": "axm",
+	"name": "Middle Armenia",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "483",
+	"code": "axx",
+	"name": "Xârâgurè",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "484",
+	"code": "aya",
+	"name": "Awar",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "485",
+	"code": "ayb",
+	"name": "Ayizo Gbe",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "486",
+	"code": "ayc",
+	"name": "Southern Aymara",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "487",
+	"code": "ayd",
+	"name": "Ayabadhu",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "488",
+	"code": "aye",
+	"name": "Ayere",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "489",
+	"code": "ayg",
+	"name": "Ginyanga",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "490",
+	"code": "ayh",
+	"name": "Hadrami Arabic",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "491",
+	"code": "ayi",
+	"name": "Leyigha",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "492",
+	"code": "ayk",
+	"name": "Akuku",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "493",
+	"code": "ayl",
+	"name": "Libyan Arabic",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "494",
+	"code": "aym",
+	"name": "Aymara",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "495",
+	"code": "ay",
+	"name": "Sanaani Arabic",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "496",
+	"code": "ayo",
+	"name": "Ayoreo",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "497",
+	"code": "ayp",
+	"name": "North Mesopotamian Arabic",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "498",
+	"code": "ayq",
+	"name": "Ayi (Papua New Guinea)",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "499",
+	"code": "ayr",
+	"name": "Central Aymara",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "500",
+	"code": "ays",
+	"name": "Sorsogon Ayta",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "501",
+	"code": "ayt",
+	"name": "Magbukun Ayta",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "502",
+	"code": "ayu",
+	"name": "Ayu",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "503",
+	"code": "ayy",
+	"name": "Tayabas Ayta",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "504",
+	"code": "ayz",
+	"name": "Mai Brat",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "505",
+	"code": "aza",
+	"name": "Azha",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "506",
+	"code": "azb",
+	"name": "South Azerbaijani",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "507",
+	"code": "azd",
+	"name": "Eastern Durango Nahuatl",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "508",
+	"code": "aze",
+	"name": "Azerbaijani",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "509",
+	"code": "azg",
+	"name": "San Pedro Amuzgos Amuzgo",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "510",
+	"code": "azj",
+	"name": "North Azerbaijani",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "511",
+	"code": "azm",
+	"name": "Ipalapa Amuzgo",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "512",
+	"code": "az",
+	"name": "Western Durango Nahuatl",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "513",
+	"code": "azo",
+	"name": "Awing",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "514",
+	"code": "azt",
+	"name": "Faire Atta",
+	"descr": "",
+	"active": "1"
+}
+, {
+	"id": "515",
+	"code": "azz",
+	"name": "Highland Puebla Nahuatl",
+	"descr": "",
+	"active": "1"
+}
+]

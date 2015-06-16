@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="no" ?>
+<!-- Created using docfacto Beermat -->
+
+<!--
+- UML Node SVG
+- Created: September 27, 2013
+- Author: Kelvin Porter - Docfacto ltd
+-->
+<!-- Copyleft, Free Art License - 
+right to freely copy, distribute and transform this work -->
+<svg contentScriptType="text/ecmascript" contentStyleType="text/css" height="139.0px" preserveAspectRatio="xMidYMid meet" version="1.0" width="136.0px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify">
+
+  <!-- A UML Node -->
+  <g class="uml.node" transform="translate(12.0 32.0)">
+    <path d="M0 0 L12 -20 L112 -20 L112 75 L95 95 L95 0 ZM95 0 L112 -20" fill="#a4a4a4" stroke="#000000" stroke-width="2"></path>
+    <rect fill="#fcfcfc" height="95" stroke="#000000" stroke-dasharray="none" stroke-width="2" width="95" x="0" y="0"></rect>
+    
+    <!-- Change the text 'Node' to the name of the node. -->
+    <text font-family="Lucida Grande" font-size="11" text-anchor="middle" x="47.0" y="48.0">Node</text>
+  </g>
+  
+</svg>

@@ -1,0 +1,74 @@
+[
+{
+	"id": "1",
+	"code": "PROF",
+	"name": "Profesor",
+	"DESCRIPTION": "\/",
+	"PARENT_ID": "0",
+	"active": "0"
+}
+, {
+	"id": "2",
+	"code": "S3",
+	"name": "Strata 3",
+	"DESCRIPTION": "\/",
+	"PARENT_ID": "0",
+	"active": "0"
+}
+, {
+	"id": "3",
+	"code": "S2",
+	"name": "Strata 2",
+	"DESCRIPTION": "\/",
+	"PARENT_ID": "0",
+	"active": "0"
+}
+, {
+	"id": "4",
+	"code": "S1",
+	"name": "Strata 1",
+	"DESCRIPTION": "\/",
+	"PARENT_ID": "0",
+	"active": "0"
+}
+, {
+	"id": "5",
+	"code": "SMA",
+	"name": "Sekolah Menegah Atas",
+	"DESCRIPTION": "\/",
+	"PARENT_ID": "0",
+	"active": "0"
+}
+, {
+	"id": "6",
+	"code": "STM",
+	"name": "Sekolah Menengah Kejurua",
+	"DESCRIPTION": "\/",
+	"PARENT_ID": "0",
+	"active": "0"
+}
+, {
+	"id": "7",
+	"code": "SMP",
+	"name": "Sekolah Menengah Pertama",
+	"DESCRIPTION": "\/",
+	"PARENT_ID": "0",
+	"active": "0"
+}
+, {
+	"id": "8",
+	"code": "SD",
+	"name": "Sekolah Dasar",
+	"DESCRIPTION": "\/",
+	"PARENT_ID": "0",
+	"active": "0"
+}
+, {
+	"id": "9",
+	"code": "TK",
+	"name": "Taman Kanak Kanak",
+	"DESCRIPTION": "\/",
+	"PARENT_ID": "0",
+	"active": "0"
+}
+]
