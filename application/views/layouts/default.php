@@ -41,7 +41,7 @@
 		<!-- Le javascript
 		================================================== -->
 		<!-- Placed at the end of the document so the pages load faster -->
-		<?php echo $template['js_footer']; ?>
+		<?php echo $template['js_footer']['beckend']; ?>
 		
 	</body>
 </html>
