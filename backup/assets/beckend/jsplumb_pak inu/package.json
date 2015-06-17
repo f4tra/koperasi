@@ -1,4 +1,0 @@
-ma', 'descr', 'icons', 'caption', 'link', 'active') VALUES (89, N'5-1-2', 5, 87, N'Qlftcn Setup', N'', N'fa-tags', N'Qlftcn Setup', N'SLS-SFS-QLF.ASP?Act=List', 1)
-INSERT INTO 'TR_GUI_inuxversion' ('id', 'code', 'tab', 'parent_id', 'nama', 'descr', 'icons', 'caption', 'link', 'active') VALUES (90, N'5-2', 5, 74, N'Sales Cycle', N'', N'fa-tags', N'Sales Cycle', N'', 1)
-INSERT INTO 'TR_GUI_inuxversion' ('id', 'code', 'tab', 'parent_id', 'nama', 'descr', 'icons', 'caption', 'link', 'active') VALUES (91, N'5-2-1', 5, 90, N'Sales Lead', N'', N'fa-tags', N'Sales Lead', N'SLS-SC-LEAD.ASP?Act=List', 1)
-INSERT INTO 'TR_GUI_inuxversion' ('id', 'code', 'tab', 'parent_id', 'nama', 'descr', 'icons', 'caption', 'link', 'active') VALUES (92, N'5-2-2', 5, 90, N'Lead Conversion', NULL, N'fa-tags', N'Lead Conversion', N'SLS-SC-LCNV.ASP?Act=List'

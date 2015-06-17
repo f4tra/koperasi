@@ -1,6 +1,0 @@
-VALUES (16, N'1-3-4', 1, 12, N'UOM-Unit Of Meassure', NULL, N'fa-wrench', N'UOM', N'SET-ISO-UOM.ASP?Act=List', 1)
-INSERT INTO 'TR_GUI' ('id', 'code', 'tab', 'parent_id', 'nama', 'descr', 'icons', 'caption', 'link', 'active') VALUES (17, N'2-1', 2, 2, N'Node Group', NULL, N'fa-group', N'Node Group', N'NODE-GRP.ASP?Act=List', 1)
-INSERT INTO 'TR_GUI' ('id', 'code', 'tab', 'parent_id', 'nama', 'descr', 'icons', 'caption', 'link', 'active') VALUES (18, N'2-3', 2, 2, N'Node Category', N'', N'fa-shopping-cart', N'Node Category', N'NODE-CTG.ASP?Act=List', 1)
-INSERT INTO 'TR_GUI' ('id', 'code', 'tab', 'parent_id', 'nama', 'descr', 'icons', 'caption', 'link', 'active') VALUES (19, N'2-2', 2, 2, N'Node Type', N'', N'fa-shopping-cart', N'Node Type', N'NODE-TYPE.ASP?Act=List', 1)
-INSERT INTO 'TR_GUI' ('id', 'code', 'tab', 'parent_id', 'nama', 'descr', 'icons', 'caption', 'link', 'active') VALUES (20, N'2-4', 2, 2, N'Entities', NULL, N'fa-group', N'Entities', N'NODE-CMPNY.ASP?Act=List', 1)
-INSERT INTO 'TR_GUI' ('id', 'code', 'tab', 'parent_id', 'nama', 'descr', 'icons', 'caption
