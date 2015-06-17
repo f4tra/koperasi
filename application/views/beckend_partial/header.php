@@ -40,7 +40,7 @@
                                 <span><i class="fa fa-leaf"></i> Setup Koperasi</span>                                
                             </li>
                             <li><a href="<?php echo site_url('acl/rule');?>" > Rule</a></li>
-                            <li><a href="<?php echo site_url('acl/roles');?>" > Roles</a></li>
+                            <li><a href="<?php echo site_url('acl/role');?>" > Roles</a></li>
                             <li><a href="<?php echo site_url('acl/resource');?>" > Resource</a></li>
                             <li><a href="<?php echo site_url('acl/menu');?>" > Menu</a></li>                            
                             <li><a href="<?php echo site_url('developer');?>" > Developer</a></li>                            

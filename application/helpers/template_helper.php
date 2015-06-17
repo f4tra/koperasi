@@ -20,12 +20,12 @@ if (!function_exists('assets_url'))
 	 * @param string $uri
 	 * @return string
 	 */
-	function assets_url($uri = '')
+	function assets_url($uri = '',$type='')
 	{
 		$CI =& get_instance();
 		$assets_path = $CI->config->item('assets_path', 'beam_template');
 		if (! $assets_path) $assets_path = '';
-		return $CI->config->base_url($assets_path . '/' . $uri);
+		return $CI->config->base_url($assets_path[$type] . '/' . $uri);
 	}
 }
 
@@ -74,9 +74,9 @@ if (!function_exists('image_url'))
 	 * @return string
 	 * @uses assets_url 
 	 */
-	function image_url($filename = '')
+	function image_url($type,$filename = '')
 	{
-		return assets_url( $filename);
+		return assets_url( 'assets/'.$type.'/'.$filename);
 	}
 }
 

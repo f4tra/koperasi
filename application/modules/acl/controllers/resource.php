@@ -16,7 +16,7 @@ class Resource extends Admin_Controller
 		$this->load->library(array('form_validation'));
 		$this->load->model(array('acl/resource_model'));
 		$this->load->language('acl/resource');
-		$this->template->set_css('simple-lists');
+		//$this->template->set_css('simple-lists');
 		
 		$this->data['resource_tree'] = $this->resource_model->get_tree();
 		
@@ -27,9 +27,15 @@ class Resource extends Admin_Controller
 	{   
 		$this->acl->build();
 		$acl = $this->acl;
-		$this->data['acl'] =  $acl;
-		$this->template->set_title(lang('resource_page_name'))
-				->build('acl/resource-tree', $this->data);
+		$this->data['acl'] =  $acl;		
+		$this->template
+			->set_title(lang('resource_page_name'))
+			->set_css('js/fuelux-tree/fuelux.min')
+			->set_css('css/simple-lists')
+			->set_js('js/fuelux-tree/fuelux.tree-sampledata',true)
+			->set_js('js/fuelux-tree/fuelux.tree.min',true)
+			->set_js_script($js,'',true)
+			->build('acl/resource-tree', $this->data);
 	}
 	
 	function add()
@@ -114,8 +120,12 @@ class Resource extends Admin_Controller
 		}
 		
 		// Load resource view
-		$this->template->set_title(lang('resource_page_name'))
-				->build('acl/resource-edit', $this->data);
+		
+		$this->template
+			->set_title(lang('resource_page_name'))			
+			->set_css('css/simple-lists')
+			->set_js_script($js,'',true)
+			->build('acl/resource-edit', $this->data);
 	}
 	
 	/**

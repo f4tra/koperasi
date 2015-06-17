@@ -19,7 +19,7 @@ class Role extends Admin_Controller
 		$this->load->library(array('form_validation'));
 		$this->load->model('acl/role_model');
 		$this->load->language('acl/role');
-		$this->template->set_css('simple-lists');
+		//$this->template->set_css('simple-lists');
 		
 		$this->data['role_tree'] = $this->role_model->get_tree();
 		
@@ -30,9 +30,15 @@ class Role extends Admin_Controller
 	{
 		$this->acl->build();
 		$acl = $this->acl;
-		$this->data['acl'] =  $acl;
-		$this->template->set_title(lang('role_page_name'));
-		$this->template->build('acl/role-tree', $this->data);
+		$this->data['acl'] =  $acl;		
+		$this->template
+			->set_title(lang('role_page_name'))
+			->set_css('js/fuelux-tree/fuelux.min')
+			->set_css('css/simple-lists')
+			->set_js('js/fuelux-tree/fuelux.tree-sampledata',true)
+			->set_js('js/fuelux-tree/fuelux.tree.min',true)
+			->set_js_script($js,'',true)
+			->build('acl/role-tree', $this->data);
 	}
 	
 	function add()
@@ -121,9 +127,15 @@ class Role extends Admin_Controller
 				redirect('acl/role');
 		}
 		
-		// Load resource view
-		$this->template->set_title(lang('role_page_name'));
-		$this->template->build('acl/role-edit', $this->data);
+		// Load resource view		
+		$this->template
+			->set_title(lang('role_page_name'))
+			->set_css('js/fuelux-tree/fuelux.min')
+			->set_css('css/simple-lists')
+			->set_js('js/fuelux-tree/fuelux.tree-sampledata',true)
+			->set_js('js/fuelux-tree/fuelux.tree.min',true)
+			->set_js_script($js,'',true)
+		->build('acl/role-edit', $this->data);
 	}
 	
 	function _send_message_redirect($type, $message)

@@ -63,6 +63,7 @@ $config['beam_template']['css'] = array(
 		'css/themes/default',	
 		'css/responsive',	
 		'font-awesome/css/font-awesome.min',
+		'css/css-google-font',
 		'js/bootstrap-daterangepicker/daterangepicker-bs3',
 		'js/uniform/css/uniform.default.min',	
 		'css/animatecss/animate.min'	

@@ -1,0 +1,1 @@
+$("#tree3").admin_tree({dataSource:treeDataSource,multiSelect:!0,loadingHTML:"<div class="tree-loading"><i class="fa fa-spinner fa-2x fa-spin"></i></div>","open-icon":"fa-minus","close-icon":"fa-plus",selectable:!0,"selected-icon":"fa-check","unselected-icon":"fa-times"})

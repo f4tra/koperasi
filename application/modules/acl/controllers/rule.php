@@ -21,7 +21,7 @@ class Rule extends Admin_Controller
 		$this->load->model('acl/rule_model');
 		$this->load->language('acl/role');
 		$this->load->language('acl/rule');
-		$this->template->set_css_f('css/simple-lists');
+		//$this->template->set_css_f('css/simple-lists');
 		
 		$this->data['redirect'] = urldecode($this->input->get_post('redirect'));
 		
@@ -34,14 +34,17 @@ class Rule extends Admin_Controller
 	{
 		$this->acl->build();
 		$acl = $this->acl;
-		$this->data['acl'] =  $acl;
-		$this->template->set_title(lang('rule_page_name'));
-		$script = '$("#tree2").admin_tree({dataSource:treeDataSource,multiSelect:!0,loadingHTML:"<div class="tree-loading"><i class="fa fa-spinner fa-2x fa-spin"></i></div>","open-icon":"fa-minus","close-icon":"fa-plus",selectable:!0,"selected-icon":"fa-check","unselected-icon":"fa-times"})';
+		$this->data['acl'] =  $acl;		
+
+		/*Load Parsing*/
+		$js = $this->load->file('assets/beckend/my_js/acl_tree.js',true);		
 		$this->template
+		->set_title(lang('rule_page_name'))
 		->set_css('js/fuelux-tree/fuelux.min')
+		->set_css('css/simple-lists')
 		->set_js('js/fuelux-tree/fuelux.tree-sampledata',true)
 		->set_js('js/fuelux-tree/fuelux.tree.min',true)
-		->set_js_script($script,'',true)
+		->set_js_script($js,'',true)
 		->build('acl/rule-tree', $this->data);
 	}
 	
@@ -91,9 +94,15 @@ class Rule extends Admin_Controller
 			foreach($rules as $rule)
 				$this->data['rules'][$rule->resource_id] = $rule;
 
-			// Load view
-			$this->template->set_title(lang('role_page_name'));
-			$this->template->build('acl/rule-edit', $this->data);
+			// Load view			
+			$this->template
+			->set_title(lang('rule_page_name'))
+			->set_css('js/fuelux-tree/fuelux.min')
+			->set_css('css/simple-lists')
+			->set_js('js/fuelux-tree/fuelux.tree-sampledata',true)
+			->set_js('js/fuelux-tree/fuelux.tree.min',true)
+			->set_js_script($js,'',true)
+			->build('acl/rule-edit', $this->data);
 		}
 		else
 			$this->_send_message_redirect('error', lang('role_cannot_be_found'));
@@ -103,6 +112,10 @@ class Rule extends Admin_Controller
 	{
 		$this->template->set_flashdata($type, $message);
 		redirect('acl/rule');
+	}
+	function ajax_tree(){
+		$data = $this->role_model->get_tree();
+		print_r(json_encode($data));
 	}
 }
 

@@ -12,7 +12,7 @@
 	<?php echo $template['css']['beckend']; ?>
 	
 	<!-- FONTS -->
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css' />
+	
 	<?php echo $template['js_header']['beckend']; ?>
 </head>
 <body>
@@ -40,8 +40,7 @@
 	<?php  echo $template['js_footer']['beckend']; ?>
 	<script>
 		jQuery(document).ready(function() {		
-			App.setPage("fixed_header_sidebar");  //Set current page
-			App.setPage("treeview");  //Set current page
+			App.setPage("fixed_header_sidebar");  //Set current page			
 			App.init(); //Initialise plugins and elements
 		});
 	</script>
