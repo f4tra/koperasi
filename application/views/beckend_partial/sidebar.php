@@ -10,16 +10,17 @@
             <!-- SIDEBAR MENU -->
             <ul>
                 <li>
-                    <a href="index.html">
+                    <a href="<?php echo site_url();?>">
                         <i class="fa fa-tachometer fa-fw"></i> <span class="menu-text">Dashboard</span>
                         <span class="selected"></span>
                     </a>                    
                 </li>
                 <?php 
-                    foreach ($menu as $key => $value) {
+                    foreach ($menu as $key => $value) {                        
                         $count_menu        = $this->db->query("select count(*) as idx from tr_menu where active='0' and parent_id='".$value->id."'")->row();                        
+                        if (!$this->acl->is_allowed($value->link)) continue;
                         if($count_menu->idx == 0){
-                            echo '<li><a class="" href="#" ><i class="fa '.$value->icon.'"></i> <span class="menu-text">'.$value->label.'</span></a></li>';
+                            echo '<li><a class="" href="'.site_url($value->link).'" ><i class="fa '.$value->icon.'"></i> <span class="menu-text">'.$value->label.'</span></a></li>';
                         }else{
                         
 
@@ -28,25 +29,29 @@
                                     <i class="fa '.$value->icon.'"></i> <span class="menu-text">'.$value->label.'</span>
                                     <span class="arrow"></span>
                                     </a>';
-                            $menu_parent        = $this->db->query("select * from tr_menu where active='0' and parent_id='".$value->id."'")->result();                                                                                
+                            $menu_parent        = $this->db->query("select m.id,m.parent_id,m.label,m.icon,r.name as link from tr_menu m left join acl_resources r on r.id=m.resource_id where m.active='0' and m.parent_id='".$value->id."'")->result();                                                                                
                             foreach ($menu_parent as $keymp => $mp) {
+                                if (!$this->acl->is_allowed($mp->link)) continue;
                                 $count_menu_parent  = $this->db->query("select count(*) as idx from tr_menu where active='0' and parent_id='".$mp->id."'")->row();                                                       
                                 if($count_menu_parent->idx == 0){
                                     echo '<ul class="sub">
-                                            <li><a class="" href="#"><span class="sub-menu-text">'.$mp->label.'</span></a></li>
+                                            <li><a class="" href="'.site_url($mp->link).'"><span class="sub-menu-text">'.$mp->label.'</span></a></li>
                                           </ul>';
                                 }else{
                                     echo '<ul class="sub">
-                                            <li><a class="" href="#"><span class="sub-menu-text">'.$mp->label.'</span></a></li>
-                                            
                                         <li class="has-sub-sub">
-                                            <a href="javascript:;" class=""><span class="sub-menu-text">Third Level Menu</span>
+                                            <a href="javascript:;" class=""><span class="sub-menu-text">'.$mp->label.'</span>
                                             <span class="arrow"></span>
                                             </a>
-                                            <ul class="sub-sub">
-                                                <li><a class="" href="#"><span class="sub-sub-menu-text">Item 1</span></a></li>
-                                                <li><a class="" href="#"><span class="sub-sub-menu-text">Item 2</span></a></li>
-                                            </ul>
+                                            <ul class="sub-sub">';
+                                                $menu_child        = $this->db->query("select m.id,m.parent_id,m.label,m.icon,r.name as link from tr_menu m left join acl_resources r on r.id=m.resource_id where m.active='0' and m.parent_id='".$mp->id."'")->result();                                                                                
+                                                foreach ($menu_child as $keychld => $child) {
+                                                    if (!$this->acl->is_allowed($child->link)) continue;
+                                                echo '<li><a class="" href="'.site_url($child->link).'"><span class="sub-sub-menu-text">'.$child->label.'</span></a></li>';
+                                                
+                                                }
+
+                                            echo '</ul>
                                         </li>
                                     </ul>';
                                 }

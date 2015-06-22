@@ -39,7 +39,18 @@ INSERT INTO `acl_resources` (`id`, `name`, `type`, `parent`, `created`, `modifie
 (18,    'acl/rule/edit',    'action',   17, '2012-07-12 17:53:25',  NULL),
 (19,    'blog', 'module',   NULL,   '2015-06-15 11:11:28',  NULL),
 (22,    'cms',  'module',   NULL,   '2015-06-16 15:01:55',  '2015-06-16 15:01:55'),
-(23,    'cms/news', 'controller',   22, '2015-06-16 15:32:53',  '2015-06-16 15:32:53');
+(23,    'cms/post', 'controller',   22, '2015-06-16 15:32:53',  '2015-06-21 09:09:44'),
+(24,    'setup',    'module',   NULL,   '2015-06-20 14:07:00',  NULL),
+(25,    'setup/menu',   'controller',   24, '2015-06-20 14:07:47',  NULL),
+(26,    'setup/menu/index', 'action',   25, '2015-06-20 14:08:14',  NULL),
+(27,    'setup/menu/add',   'action',   25, '2015-06-20 14:08:30',  '2015-06-20 14:08:50'),
+(28,    'setup/menu/edit',  'action',   25, '2015-06-20 14:09:39',  NULL),
+(29,    'setup/menu/delete',    'action',   25, '2015-06-20 14:10:33',  NULL),
+(30,    'cms/post/index',   'action',   23, '2015-06-21 09:10:55',  NULL),
+(31,    'cms/post/add', 'action',   23, '2015-06-21 09:11:17',  NULL),
+(32,    'cms/post/edit',    'action',   23, '2015-06-21 09:11:32',  NULL),
+(33,    'transaksi',    'module',   NULL,   '2015-06-21 10:12:22',  NULL),
+(34,    'setup/koperasi',   'controller',   24, '2015-06-21 10:26:03',  NULL);
 
 DROP TABLE IF EXISTS `acl_roles`;
 CREATE TABLE `acl_roles` (
@@ -54,7 +65,7 @@ CREATE TABLE `acl_roles` (
 INSERT INTO `acl_roles` (`id`, `name`, `created`, `modified`) VALUES
 (1, 'Administrator',    '2011-12-27 12:00:00',  NULL),
 (2, 'Guest',    '2011-12-27 12:00:00',  NULL),
-(3, 'Staf', '2012-11-12 04:30:02',  '2012-11-12 04:30:39'),
+(3, 'Staf', '2012-11-12 04:30:02',  '2015-06-20 18:37:02'),
 (4, 'Manager',  '2012-11-12 04:30:24',  NULL);
 
 DROP TABLE IF EXISTS `acl_role_parents`;
@@ -69,7 +80,6 @@ CREATE TABLE `acl_role_parents` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 INSERT INTO `acl_role_parents` (`role_id`, `parent`, `order`) VALUES
-(3, 2,  0),
 (4, 3,  0);
 
 DROP TABLE IF EXISTS `acl_rules`;
@@ -91,7 +101,7 @@ INSERT INTO `acl_rules` (`role_id`, `resource_id`, `access`, `priviledge`) VALUE
 (2, 4,  'allow',    NULL),
 (4, 2,  'allow',    NULL),
 (4, 5,  'allow',    NULL),
-(4, 23, 'allow',    NULL);
+(4, 34, 'allow',    NULL);
 
 DROP TABLE IF EXISTS `auth_autologin`;
 CREATE TABLE `auth_autologin` (
@@ -122,30 +132,10 @@ CREATE TABLE `auth_users` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 INSERT INTO `auth_users` (`id`, `first_name`, `last_name`, `username`, `email`, `password`, `lang`, `registered`, `role_id`) VALUES
-(1002,  'Diane',    'Murphy',   'dmurphy',  'dmurphy@classicmodelcars.com', '', NULL,   '2012-03-01 05:54:30',  NULL),
-(1056,  'Mary', 'Patterson',    'mpatterso',    'mpatterso@classicmodelcars.com',   '', NULL,   '2012-03-01 05:54:30',  NULL),
-(1076,  'Jeff', 'Firrelli', 'jeff.firrelli',    'jeff.firrelli@classicmodelcars.com',   '', NULL,   '2012-03-01 05:54:30',  NULL),
-(1088,  'William',  'Patterson',    'wpatterson',   'wpatterson@classicmodelcars.com',  '', NULL,   '2012-03-01 05:54:30',  NULL),
-(1102,  'Gerard',   'Bondur',   'gbondur',  'gbondur@classicmodelcars.com', '$2a$08$/9GPAwtVkFug2y5yBIhmPOZWSev.Myt.ruNENXo9DT4VrqTwNBE2K', 'en',   '2012-03-01 05:54:30',  NULL),
-(1143,  'Anthony',  'Bow',  'abow', 'abow@classicmodelcars.com',    '$2a$08$w6grERmP9T3r7FOBAuxLjO0l9H05ZgFTgGUY26hA89/g/Wq.QLqye', NULL,   '2012-03-01 05:54:30',  NULL),
-(1165,  'Leslie',   'Jennings', 'ljennings',    'ljennings@classicmodelcars.com',   '', NULL,   '2012-03-01 05:54:30',  NULL),
-(1166,  'Leslie',   'Thompson', 'lthompson',    'lthompson@classicmodelcars.com',   '', NULL,   '2012-03-01 05:54:30',  NULL),
-(1188,  'Julie',    'Firrelli', 'julie.firrelli',   'julie.firrelli@classicmodelcars.com',  '', NULL,   '2012-03-01 05:54:30',  NULL),
-(1216,  'Steve',    'Patterson',    'spatterson',   'spatterson@classicmodelcars.com',  '', NULL,   '2012-03-01 05:54:30',  NULL),
-(1337,  'Loui', 'Bondur',   'lbondur',  'lbondur@classicmodelcars.com', '$2a$08$tGx5NElKJIm2hkX3OwRYSOp/VZ/r.oaB2YHdK.HBCDM921rfUVAta', NULL,   '2012-03-01 05:54:30',  NULL),
-(1370,  'Gerard',   'Hernandez',    'ghernande',    'ghernande@classicmodelcars.com',   '', NULL,   '2012-03-01 05:54:30',  NULL),
-(1401,  'Pamela',   'Castillo', 'pcastillo',    'pcastillo@classicmodelcars.com',   '', NULL,   '2012-03-01 05:54:30',  NULL),
-(1501,  'Larry',    'Bott', 'lbott',    'lbott@classicmodelcars.com',   '$2a$08$Njus3nhJ9bX5YYGra6xRu.ldrTylOMebKHXW/Wfl0o2wMvtppY476', NULL,   '2012-03-01 05:54:30',  NULL),
-(1504,  'Barry',    'Jones',    'bjones',   'bjones@classicmodelcars.com',  '', NULL,   '2012-03-01 05:54:30',  NULL),
-(1611,  'Andy', 'Fixter',   'afixter',  'afixter@classicmodelcars.com', '', NULL,   '2012-03-01 05:54:30',  NULL),
-(1612,  'Peter',    'Marsh',    'pmarsh',   'pmarsh@classicmodelcars.com',  '', NULL,   '2012-03-01 05:54:30',  NULL),
-(1619,  'Tom',  'King', 'tking',    'tking@classicmodelcars.com',   '', NULL,   '2012-03-01 05:54:30',  NULL),
-(1621,  'Mami', 'Nishi',    'mnishi',   'mnishi@classicmodelcars.com',  '', NULL,   '2012-03-01 05:54:30',  NULL),
-(1625,  'Yoshimi',  'Kato', 'ykato',    'ykato@classicmodelcars.com',   '', NULL,   '2012-03-01 05:54:30',  NULL),
-(1702,  'Martin',   'Gerard',   'mgerard',  'mgerard@classicmodelcars.com', '', NULL,   '2012-03-01 05:54:30',  NULL),
-(1703,  'Ardi', 'Soebrata', 'ardissoebrata',    'ardissoebrata@gmail.com',  '$2a$08$KZRME/RCMM.ikhJvS9IQtOD/qQcM/922akreUjQ7fgL6BanTAwsIm', 'en',   '2012-03-09 12:57:48',  4),
-(1704,  'Administrator',    'Tea',  'admin',    'admin@vmt.co.id',  '$2a$08$dxSn4NG3GUxu3XGLr4niIuemUHBohdWdBobNsRi6WpBE.h8zHNmXO', 'en',   '2012-03-15 19:23:59',  1),
-(1706,  'Test', 'TestLast', 'test', 'test@test.com',    'test', 'en',   '2012-11-09 10:58:34',  2);
+(1, 'Administrator ',   'Tea Change',   'admin',    'admin@vmt.co.id',  '$2a$08$k8ExsWAe1qAyk2A/0tbvoeg/ahOb6DpQBnohcZvG79TNr28K5vNHe', 'en',   '2012-03-15 19:23:59',  1),
+(2, 'Ardi', 'Soebrata', 'ardissoebrata',    'ardissoebrata@gmail.com',  '$2a$08$KZRME/RCMM.ikhJvS9IQtOD/qQcM/922akreUjQ7fgL6BanTAwsIm', 'en',   '2012-03-09 12:57:48',  4),
+(3, 'Test', 'TestLast', 'test', 'test@test.com',    'test', 'en',   '2012-11-09 10:58:34',  2),
+(4, 'Jafar',    'Jafar',    'Jafar',    'sidik@gmail.com',  '$2a$08$2bxOAffgRUPksG4Ay4j/Sew9dDsb6eU4iWZHIGJj54eoY6f8xobJe', 'en',   '2015-06-21 09:34:52',  4);
 
 DROP TABLE IF EXISTS `auth_users_master`;
 CREATE TABLE `auth_users_master` (
@@ -198,26 +188,11 @@ CREATE TABLE `ci_sessions` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 INSERT INTO `ci_sessions` (`session_id`, `ip_address`, `user_agent`, `last_activity`, `user_data`) VALUES
-('26d69a66b743c191078c8daafa0142b6',    '::1',  'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36',    1434473482, 'a:2:{s:9:\"user_data\";s:0:\"\";s:9:\"role_name\";s:5:\"Guest\";}'),
-('2f95b5a1370749b9afcf66b1825780ff',    '::1',  'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36',    1434470192, 'a:2:{s:9:\"user_data\";s:0:\"\";s:9:\"role_name\";s:5:\"Guest\";}'),
-('4d3e7a54e754e57df315cbf73048b480',    '::1',  'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36',    1434470117, 'a:2:{s:9:\"user_data\";s:0:\"\";s:9:\"role_name\";s:5:\"Guest\";}'),
-('56b8310b8891a93919c89249eaf032b5',    '::1',  'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36',    1434475111, 'a:6:{s:9:\"user_data\";s:0:\"\";s:9:\"role_name\";s:13:\"Administrator\";s:9:\"auth_user\";s:4:\"1704\";s:13:\"auth_loggedin\";b:1;s:4:\"lang\";s:2:\"en\";s:7:\"role_id\";s:1:\"1\";}'),
-('5ae66f03c56675432135824793080909',    '::1',  'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36',    1434470116, 'a:3:{s:9:\"user_data\";s:0:\"\";s:9:\"auth_user\";s:4:\"1704\";s:13:\"auth_loggedin\";b:1;}'),
-('5b3a362a05fb47f6b0e7686aa8278df7',    '::1',  'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36',    1434473443, 'a:6:{s:9:\"user_data\";s:0:\"\";s:9:\"role_name\";s:5:\"Guest\";s:9:\"auth_user\";b:0;s:13:\"auth_loggedin\";b:0;s:4:\"lang\";s:2:\"en\";s:7:\"role_id\";s:1:\"1\";}'),
-('61150d5a24e69960f0242948f0cd2c1b',    '::1',  'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36',    1434475111, 'a:2:{s:9:\"user_data\";s:0:\"\";s:9:\"role_name\";s:5:\"Guest\";}'),
-('6a61fee565c317bf6bc72d0198cb2721',    '::1',  'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36',    1434470197, 'a:2:{s:9:\"user_data\";s:0:\"\";s:9:\"role_name\";s:5:\"Guest\";}'),
-('6db9eae1185c312dbfb634f0e6c60394',    '::1',  'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36',    1434469851, 'a:7:{s:9:\"user_data\";s:0:\"\";s:9:\"role_name\";s:13:\"Administrator\";s:9:\"auth_user\";s:4:\"1704\";s:13:\"auth_loggedin\";b:1;s:4:\"lang\";s:2:\"en\";s:7:\"role_id\";s:1:\"1\";s:15:\"flash:old:error\";b:0;}'),
-('83639616bae99cc177d8187b9545f20f',    '::1',  'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36',    1434470196, 'a:2:{s:9:\"user_data\";s:0:\"\";s:9:\"role_name\";s:5:\"Guest\";}'),
-('89ab77bf25e97bdc775a3410bd965dbb',    '::1',  'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36',    1434473497, 'a:2:{s:9:\"user_data\";s:0:\"\";s:9:\"role_name\";s:5:\"Guest\";}'),
-('9aa488b38f52d1cefcc0d43151dccc06',    '::1',  'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36',    1434473482, 'a:2:{s:9:\"user_data\";s:0:\"\";s:9:\"role_name\";s:5:\"Guest\";}'),
-('b3e856b7a4a5cbeccacde13649bc60de',    '::1',  'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36',    1434473498, 'a:6:{s:9:\"user_data\";s:0:\"\";s:9:\"role_name\";s:13:\"Administrator\";s:9:\"auth_user\";s:4:\"1704\";s:13:\"auth_loggedin\";b:1;s:4:\"lang\";s:2:\"en\";s:7:\"role_id\";s:1:\"1\";}'),
-('b538202e4b3ab3ce58db5ac50c05395e',    '::1',  'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36',    1434470174, 'a:2:{s:9:\"user_data\";s:0:\"\";s:9:\"role_name\";s:5:\"Guest\";}'),
-('b79b4194027ed4d8a747da453e1f4708',    '::1',  'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36',    1434469489, 'a:6:{s:9:\"user_data\";s:0:\"\";s:9:\"role_name\";s:13:\"Administrator\";s:9:\"auth_user\";s:4:\"1704\";s:13:\"auth_loggedin\";b:1;s:4:\"lang\";s:2:\"en\";s:7:\"role_id\";s:1:\"1\";}'),
-('cb98cb623741e9fe5298b490899a398a',    '::1',  'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36',    1434470159, 'a:4:{s:9:\"user_data\";s:0:\"\";s:9:\"role_name\";s:5:\"Guest\";s:9:\"auth_user\";b:0;s:13:\"auth_loggedin\";b:0;}'),
-('d630345dc1004ee14f10942023b773c3',    '::1',  'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36',    1434473784, 'a:2:{s:9:\"user_data\";s:0:\"\";s:9:\"role_name\";s:5:\"Guest\";}'),
-('d70e909d5f5aa2f43981fc647b458819',    '::1',  'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36',    1434470191, 'a:2:{s:9:\"user_data\";s:0:\"\";s:9:\"role_name\";s:5:\"Guest\";}'),
-('f4a93905a89d99bbc7845337203c40cb',    '::1',  'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36',    1434474799, 'a:6:{s:9:\"user_data\";s:0:\"\";s:9:\"role_name\";s:5:\"Guest\";s:9:\"auth_user\";b:0;s:13:\"auth_loggedin\";b:0;s:4:\"lang\";s:2:\"en\";s:7:\"role_id\";s:1:\"1\";}'),
-('fe39ea76ac41df4935f40668d05de040',    '::1',  'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36',    1434472814, 'a:6:{s:9:\"user_data\";s:0:\"\";s:9:\"role_name\";s:13:\"Administrator\";s:9:\"auth_user\";s:4:\"1704\";s:13:\"auth_loggedin\";b:1;s:4:\"lang\";s:2:\"en\";s:7:\"role_id\";s:1:\"1\";}');
+('0c0b2cfd4012b34ecd06c53d3f3ad4fb',    '::1',  'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36',    1434873657, 'a:2:{s:9:\"user_data\";s:0:\"\";s:9:\"role_name\";s:5:\"Guest\";}'),
+('2b805e42631f314d26f434524b30eb83',    '::1',  'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36',    1434875327, 'a:6:{s:9:\"user_data\";s:0:\"\";s:9:\"role_name\";s:5:\"Guest\";s:9:\"auth_user\";b:0;s:13:\"auth_loggedin\";b:0;s:4:\"lang\";s:2:\"en\";s:7:\"role_id\";s:1:\"4\";}'),
+('590ede14ff57aff2d4ce996dfe2f204d',    '::1',  'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36',    1434874960, 'a:6:{s:9:\"user_data\";s:0:\"\";s:9:\"role_name\";s:7:\"Manager\";s:9:\"auth_user\";s:1:\"4\";s:13:\"auth_loggedin\";b:1;s:4:\"lang\";s:2:\"en\";s:7:\"role_id\";s:1:\"4\";}'),
+('8545e9638879277a5f34de56a1d9981e',    '::1',  'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36',    1434874052, 'a:2:{s:9:\"user_data\";s:0:\"\";s:9:\"role_name\";s:5:\"Guest\";}'),
+('ac32846ba291ef886e5b61a4db151a1d',    '::1',  'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36',    1434873657, 'a:2:{s:9:\"user_data\";s:0:\"\";s:9:\"role_name\";s:5:\"Guest\";}');
 
 DROP TABLE IF EXISTS `tr_menu`;
 CREATE TABLE `tr_menu` (
@@ -230,13 +205,75 @@ CREATE TABLE `tr_menu` (
   `parent_id` int(11) DEFAULT '0',
   `resource_id` int(11) DEFAULT NULL,
   `active` int(11) DEFAULT '0',
+  `role_id` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `resource_id` (`resource_id`),
   CONSTRAINT `tr_menu_ibfk_1` FOREIGN KEY (`resource_id`) REFERENCES `acl_resources` (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
-INSERT INTO `tr_menu` (`id`, `code`, `icon`, `label`, `name`, `descr`, `parent_id`, `resource_id`, `active`) VALUES
-(1, 'CMS',  'fa-book',  'CMS',  'CMS',  'Content Mangagement System',   0,  22, 0),
-(2, 'News', '', 'News', 'News', NULL,   1,  23, 0);
+INSERT INTO `tr_menu` (`id`, `code`, `icon`, `label`, `name`, `descr`, `parent_id`, `resource_id`, `active`, `role_id`) VALUES
+(1, 'CMS',  'fa-book',  'CMS',  'CMS',  'Content Mangagement System',   0,  22, 0,  NULL),
+(2, 'Post', '', 'Post', 'Post', '', 1,  23, 0,  NULL),
+(6, 'SP',   'fa-book',  'Simpan Pinjam',    'Simpan Pinjam',    '', 0,  33, 0,  NULL);
 
--- 2015-06-17 03:32:02
+DROP TABLE IF EXISTS `tt_comments`;
+CREATE TABLE `tt_comments` (
+  `comment_ID` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `comment_post_ID` bigint(20) unsigned NOT NULL DEFAULT '0',
+  `comment_author` tinytext COLLATE utf8mb4_unicode_ci NOT NULL,
+  `comment_author_email` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '',
+  `comment_author_url` varchar(200) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '',
+  `comment_author_IP` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '',
+  `comment_date` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `comment_date_gmt` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `comment_content` text COLLATE utf8mb4_unicode_ci NOT NULL,
+  `comment_karma` int(11) NOT NULL DEFAULT '0',
+  `comment_approved` varchar(20) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '1',
+  `comment_agent` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '',
+  `comment_type` varchar(20) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '',
+  `comment_parent` bigint(20) unsigned NOT NULL DEFAULT '0',
+  `user_id` bigint(20) unsigned NOT NULL DEFAULT '0',
+  PRIMARY KEY (`comment_ID`),
+  KEY `comment_post_ID` (`comment_post_ID`),
+  KEY `comment_approved_date_gmt` (`comment_approved`,`comment_date_gmt`),
+  KEY `comment_date_gmt` (`comment_date_gmt`),
+  KEY `comment_parent` (`comment_parent`),
+  KEY `comment_author_email` (`comment_author_email`(10))
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+INSERT INTO `tt_comments` (`comment_ID`, `comment_post_ID`, `comment_author`, `comment_author_email`, `comment_author_url`, `comment_author_IP`, `comment_date`, `comment_date_gmt`, `comment_content`, `comment_karma`, `comment_approved`, `comment_agent`, `comment_type`, `comment_parent`, `user_id`) VALUES
+(1, 1,  'Mr WordPress', '', 'https://wordpress.org/',   '', '2015-05-13 01:53:38',  '2015-05-13 01:53:38',  'Hi, this is a comment.\nTo delete a comment, just log in and view the post&#039;s comments. There you will have the option to edit or delete them.',   0,  '1',    '', '', 0,  0);
+
+DROP TABLE IF EXISTS `tt_posts`;
+CREATE TABLE `tt_posts` (
+  `ID` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `post_author` bigint(20) unsigned NOT NULL DEFAULT '0',
+  `post_date` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `post_content` longtext COLLATE utf8mb4_unicode_ci NOT NULL,
+  `post_title` text COLLATE utf8mb4_unicode_ci NOT NULL,
+  `post_status` varchar(20) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '1',
+  `comment_status` varchar(20) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT 'open',
+  `post_modified` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `post_type` varchar(20) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT 'post',
+  `comment_count` bigint(20) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`ID`),
+  KEY `type_status_date` (`post_type`,`post_status`,`post_date`,`ID`),
+  KEY `post_author` (`post_author`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+INSERT INTO `tt_posts` (`ID`, `post_author`, `post_date`, `post_content`, `post_title`, `post_status`, `comment_status`, `post_modified`, `post_type`, `comment_count`) VALUES
+(24,    1,  '2015-06-21 07:13:24',  'First Blog Change',    'First Blog Change',    '1',    '1',    '2015-06-21 07:21:56',  'post', 0);
+
+DROP TABLE IF EXISTS `unit_koperasi`;
+CREATE TABLE `unit_koperasi` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(100) DEFAULT NULL,
+  `address` text,
+  `phone` varchar(100) DEFAULT NULL,
+  `email` varchar(100) DEFAULT NULL,
+  `logo` text,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+-- 2015-06-22 04:11:31

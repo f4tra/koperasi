@@ -60,7 +60,7 @@ class MY_Controller extends CI_Controller
 				'role_name'		=> $user->role_name
 			);
 			$where = array('active'=>0,'parent_id'=>0);
-			$this->data['menu'] 			 = $this->mgeneral->getwhere($where,'tr_menu');
+			$this->data['menu'] 			 = $this->db->query("select m.id,m.parent_id,m.label,m.icon,r.name as link from tr_menu m left join acl_resources r on r.id=m.resource_id where m.active=0 and parent_id=0")->result();
 			
 			//$this->data['menu_parent'] 		 = $this->mgeneral->getwhere($where,'tr_menu');
 			//$this->data['menu_parent_child'] = $this->mgeneral->getwhere($where,'tr_menu');

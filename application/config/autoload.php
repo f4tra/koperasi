@@ -52,7 +52,7 @@ $autoload['packages'] = array();
 |	$autoload['libraries'] = array('database', 'session', 'xmlrpc');
 */
 
-$autoload['libraries'] = array('database', 'session', 'auth', 'Beam/Template', 'Beam/Acl');
+$autoload['libraries'] = array('database', 'session', 'auth', 'Beam/Template', 'Beam/Acl','Datatables');
 
 
 /*
@@ -64,7 +64,7 @@ $autoload['libraries'] = array('database', 'session', 'auth', 'Beam/Template', '
 |	$autoload['helper'] = array('url', 'file');
 */
 
-$autoload['helper'] = array('url', 'language', 'template');
+$autoload['helper'] = array('url', 'language', 'template','serialize');
 
 
 /*

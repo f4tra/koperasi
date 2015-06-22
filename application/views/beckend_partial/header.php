@@ -1,4 +1,4 @@
-<!-- HEADER -->
+
 <header class="navbar clearfix navbar-fixed-top" id="header">
     <div class="container">
         <div class="navbar-brand">
@@ -22,13 +22,13 @@
                 </div>
                 <!-- NAVBAR LEFT -->
                 <ul class="nav navbar-nav pull-left hidden-xs" id="navbar-left">
-                    <li class="dropdown">
+                    <!-- <li class="dropdown">
                         <a href="#" class="project-switcher-btn dropdown-toggle tip-bottom" data-toggle="tooltip" title="Toggle Team View">
                             <i class="fa fa-group"></i>
                             <span class="name">Team Status</span>
                             <i class="fa fa-angle-down"></i>
                         </a>
-                    </li>
+                    </li> -->
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                             <i class="fa fa-cog"></i>
@@ -36,14 +36,14 @@
                             <i class="fa fa-angle-down"></i>
                         </a>
                         <ul class="dropdown-menu skins">
-                            <li class="dropdown-title">
-                                <span><i class="fa fa-leaf"></i> Setup Koperasi</span>                                
-                            </li>
+                            <?php //if (!$this->acl->is_allowed($value->link)) continue;?>
+                            <li><a href="<?php echo site_url('setup/koperasi');?>" > <i class="fa fa-leaf"></i> Setup Koperasi</a></li>
                             <li><a href="<?php echo site_url('acl/rule');?>" > Rule</a></li>
                             <li><a href="<?php echo site_url('acl/role');?>" > Roles</a></li>
                             <li><a href="<?php echo site_url('acl/resource');?>" > Resource</a></li>
-                            <li><a href="<?php echo site_url('acl/menu');?>" > Menu</a></li>                            
+                            <li><a href="<?php echo site_url('setup/menu');?>" > Menu</a></li>                            
                             <li><a href="<?php echo site_url('developer');?>" > Developer</a></li>                            
+                            <li><a href="<?php echo site_url('authorize/user');?>" > Users</a></li>                            
                          </ul>
                     </li>
 
@@ -296,13 +296,12 @@
                     <li class="dropdown user" id="header-user">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                             <img alt="" src="<?php echo base_url('assets/beckend/img/avatars/avatar3.jpg');?>" />
-                            <span class="username">John Doe</span>
+                            <span class="username"><?php echo $auth_user['first_name']; ?></span>
                             <i class="fa fa-angle-down"></i>
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a href="#"><i class="fa fa-user"></i> My Profile</a></li>
-                            <li><a href="#"><i class="fa fa-cog"></i> Account Settings</a></li>
-                            <li><a href="#"><i class="fa fa-eye"></i> Privacy Settings</a></li>
+                            <li><a href="<?php echo site_url('authorize/profile');?>"><i class="fa fa-user"></i> My Profile</a></li>
+                            <li><a href="<?php echo site_url('authorize/account');?>"><i class="fa fa-cog"></i> Account Settings</a></li>                            
                             <li><a href="<?php echo site_url('authorize/logout');?>"><i class="fa fa-power-off"></i> <?php echo lang('logout');?></a></li>
                         </ul>
                     </li>
@@ -312,7 +311,7 @@
         </div>
         
         <!-- PROJECT SWITCHER -->
-        <div class="container project-switcher" id="project-switcher">
+        <!-- <div class="container project-switcher" id="project-switcher">
           <div id="scrollbar">
             <div class="handle">
             </div>
@@ -601,7 +600,7 @@
                 </li>
               </ul>
             </div>
-          </div>
+          </div> -->
         <!-- /PROJECT SWITCHER -->
     </header>
-    <!--/HEADER -->
+    <!--/HEADER

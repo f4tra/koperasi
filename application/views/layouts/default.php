@@ -41,6 +41,7 @@
 	<script>
 		jQuery(document).ready(function() {		
 			App.setPage("fixed_header_sidebar");  //Set current page			
+			//App.setPage("forms");  //Set current page			
 			App.init(); //Initialise plugins and elements
 		});
 	</script>

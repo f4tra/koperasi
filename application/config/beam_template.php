@@ -66,7 +66,10 @@ $config['beam_template']['css'] = array(
 		'css/css-google-font',
 		'js/bootstrap-daterangepicker/daterangepicker-bs3',
 		'js/uniform/css/uniform.default.min',	
-		'css/animatecss/animate.min'	
+		'css/animatecss/animate.min',
+		'css/datatables-3',
+		'js/select2/select2.min',
+		'css/jquery.pnotify.default'
 	),
 	'frontend' =>array(
 		'css/bootstrap',
@@ -86,14 +89,6 @@ $config['beam_template']['css'] = array(
  */
 $config['beam_template']['js_header'] = array(
 	'beckend'=>array(
-		
-	),
-	'frontend'=>array(
-		'js/jquery',		
-	),
-);
-$config['beam_template']['js_footer'] = array(
-	'beckend'=>array(
 		'js/jquery/jquery-2.0.3.min',		
 		'js/jquery-ui-1.10.3.custom/js/jquery-ui-1.10.3.custom.min',
 		'bootstrap-dist/js/bootstrap.min',
@@ -103,7 +98,20 @@ $config['beam_template']['js_footer'] = array(
 		'js/jQuery-slimScroll-1.3.0/slimScrollHorizontal.min',
 		'js/jQuery-Cookie/jquery.cookie.min',
 		'js/uniform/jquery.uniform.min',
+		'js/datatables/media/js/jquery.dataTables.min',
+		'js/datatables-3',
+		'js/jquery-validate/jquery.validate.min',
+		'js/jquery.pnotify',
+		'js/select2/select2.min',
 		'js/script',
+	),
+	'frontend'=>array(
+		'js/jquery',		
+	),
+);
+$config['beam_template']['js_footer'] = array(
+	'beckend'=>array(
+		
 	),
 	'frontend'=>array(
 		'js/bootstrap',		
