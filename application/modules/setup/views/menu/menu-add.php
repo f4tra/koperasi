@@ -53,6 +53,7 @@
 						<label class="col-md-2 control-label">Parent:</label> 
 						<div class="col-md-4">
 							<select class="col-md-12 full-width-fix" name="parent" id="parent">								
+								<option value='0'>No Parent</option>
 								<?php printTree($menu_parent); ?>
 							</select>
 						</div>

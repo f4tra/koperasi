@@ -64,8 +64,8 @@
 						<div class="col-md-4">
 							<select name="active" id="active" class="form-control">
 								
-								<option <?php if($parsing->active == 1){echo "selected";}else{echo "";}?> value="0">Active</option>
-								<option <?php if($parsing->active == 0){echo "selected";}else{echo "";}?> value="1">Inactive</option>
+								<option <?php if($parsing->active == 0){echo "selected";}else{echo "";}?> value="0">Active</option>
+								<option <?php if($parsing->active == 1){echo "selected";}else{echo "";}?> value="1">Inactive</option>
 							
 							</select>
 						</div>

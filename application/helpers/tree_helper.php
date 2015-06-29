@@ -21,26 +21,8 @@ function printTree($tree,$r = 0,$p=null,$id){
             $r = 0;
         }
         if(isset($t->_children)){
-            $j = printTree($t->_children,++$r,$t->parent_id,$id);
+            $j = printTree($t->_children,$r+1,$t->parent_id,$id);
         }
     }
     return $j;
 }
-/*function list_menu($parent = 0,$hasil=''){
-        $first =  $this->db->query("select * from tr_menu where parent_id ='".$parent."'");
-        
-
-        if($first->num_rows() > 0){
-            $hasil = "*";
-            foreach ($first->result() as $key => $value) {
-                $hasil .= "<option value='".$value->id."'>".$value->name."</option>";
-                $hasil .= "&nbsp;&nbsp;&nbsp;".$this->list_menu($value->id,$hasil);
-                $hasil .= "&";
-                
-            }
-            if($first->num_rows() > 0){
-                $hasil .= "";
-            }   
-            return $hasil;          
-        }
-    }*/

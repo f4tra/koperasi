@@ -30,15 +30,14 @@
                                     <span class="arrow"></span>
                                     </a>';
                             $menu_parent        = $this->db->query("select m.id,m.parent_id,m.label,m.icon,r.name as link from tr_menu m left join acl_resources r on r.id=m.resource_id where m.active='0' and m.parent_id='".$value->id."'")->result();                                                                                
+                            echo '<ul class="sub">';
                             foreach ($menu_parent as $keymp => $mp) {
                                 if (!$this->acl->is_allowed($mp->link)) continue;
-                                $count_menu_parent  = $this->db->query("select count(*) as idx from tr_menu where active='0' and parent_id='".$mp->id."'")->row();                                                       
+                                $count_menu_parent  = $this->db->query("select count(*) as idx from tr_menu where active='0' and parent_id='".$mp->id."'")->row();                                                                                       
                                 if($count_menu_parent->idx == 0){
-                                    echo '<ul class="sub">
-                                            <li><a class="" href="'.site_url($mp->link).'"><span class="sub-menu-text">'.$mp->label.'</span></a></li>
-                                          </ul>';
+                                    echo '<li><a class="" href="'.site_url($mp->link).'"><span class="sub-menu-text">'.$mp->label.'</span></a></li>';
                                 }else{
-                                    echo '<ul class="sub">
+                                    echo '
                                         <li class="has-sub-sub">
                                             <a href="javascript:;" class=""><span class="sub-menu-text">'.$mp->label.'</span>
                                             <span class="arrow"></span>
@@ -53,11 +52,11 @@
 
                                             echo '</ul>
                                         </li>
-                                    </ul>';
+                                    ';
                                 }
                             
                             }
-                            echo '</li>';
+                            echo '</ul></li>';
                         }
                     }
                 ?>

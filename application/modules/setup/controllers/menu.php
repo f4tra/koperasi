@@ -149,7 +149,15 @@ class Menu extends Admin_Controller
 		}
 		echo json_encode($result);
 	}
-	
+	function test(){
+		$data 		= $this->mgeneral->getAll("tr_menu");		
+		$resource 	= $this->db->query("select id,name,parent as parent_id from acl_resources ")->result();		
+		$tree  = buildTree($data);
+		
+		echo "<pre/>";
+		print_r(buildTree($data));
+		echo (printTree($tree));
+	}
 	
 }
 

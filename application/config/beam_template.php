@@ -69,7 +69,8 @@ $config['beam_template']['css'] = array(
 		'css/animatecss/animate.min',
 		'css/datatables-3',
 		'js/select2/select2.min',
-		'css/jquery.pnotify.default'
+		'css/jquery.pnotify.default',
+		'js/bootstrap3-editable/css/bootstrap-editable',
 	),
 	'frontend' =>array(
 		'css/bootstrap',
@@ -80,7 +81,8 @@ $config['beam_template']['css'] = array(
 			}'
 		),
 		'css/bootstrap-theme',
-		'css/simple-lists'
+		'css/simple-lists',
+		'css/jquery.pnotify.default',
 	)
 );
 
@@ -103,10 +105,13 @@ $config['beam_template']['js_header'] = array(
 		'js/jquery-validate/jquery.validate.min',
 		'js/jquery.pnotify',
 		'js/select2/select2.min',
+		'js/bootstrap3-editable/js/bootstrap-editable',
 		'js/script',
 	),
 	'frontend'=>array(
-		'js/jquery',		
+		'js/jquery/jquery-2.0.3.min',
+		'js/jquery-validate/jquery.validate.min',
+		'js/jquery.pnotify',
 	),
 );
 $config['beam_template']['js_footer'] = array(

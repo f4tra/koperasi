@@ -36,11 +36,17 @@ class Welcome extends MY_Controller
 	 */
 	public function index()
 	{
-/*echo "<pre>";
-			print_r($this->config->item('dashboard_uri'));//$this->config->item('dashboard_uri')
-echo "</pre>";*/
-		$this->template->load_module_partial('sidebar', 'welcome/hmvc/sidebar_partial')
-		->build('welcome_message');
+
+		if ($this->auth->loggedin()) 
+        {
+             //echo Modules::run('welcome/hmvc/module_run');
+             $this->template->build('bootstrap_fluid');
+        }else{
+        	
+        	$this->template->load_module_partial('sidebar', 'welcome/hmvc/sidebar_partial')
+			->build('welcome_message');	
+        }
+		
 	}
 	
 	/**
