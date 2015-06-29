@@ -42,6 +42,7 @@ class Welcome extends MY_Controller
              //echo Modules::run('welcome/hmvc/module_run');
              $this->template->build('bootstrap_fluid');
              //$this->load->controller('dashboard/dashboard');
+             echo site_url();
         }else{
         	
         	$this->template->load_module_partial('sidebar', 'welcome/hmvc/sidebar_partial')
