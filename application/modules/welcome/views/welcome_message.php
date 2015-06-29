@@ -53,7 +53,7 @@
 </div>
 
 <script type="text/javascript">
-var url = "<?php echo site_url(); ?>/";
+var url = "<?php echo site_url(); ?>";
 // Fungsi Untuk Tambah Data
 function logins(){
     $('#login').validate({

@@ -71,7 +71,7 @@ function save(){
 		},
 		submitHandler: function(form){
 			$.ajax({
-				url: '<?php echo site_url();?>/authorize/profile/action',
+				url: '<?php echo site_url();?>authorize/profile/action',
 				type: "POST",
 				dataType:"json",
 				data: $("#form").serialize(),

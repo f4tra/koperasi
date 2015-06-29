@@ -14,27 +14,16 @@
 					<div class="form-group">
 						<label class="col-md-2 control-label">Code:</label> 
 						<div class="col-md-4">
-							<input  class="form-control" type="text" name="code" id="code"  placeholder="Code">
+							<input value="<?php echo $parsing->code;?>" class="form-control" type="text" name="code" id="code"  placeholder="Code">
 						</div>
 					</div>
 					<div class="form-group">
 						<label class="col-md-2 control-label">Name:</label> 
 						<div class="col-md-4">
-							<input  class="form-control" type="text" name="name" id="name" placeholder="Name">
-						</div>
-					</div>
-					<div class="form-group">
-						<label class="col-md-2 control-label">Label:</label> 
-						<div class="col-md-4">
-							<input class="form-control" type="text" name="label" id="label" placeholder="Label">
-						</div>
-					</div>
-					<div class="form-group">
-						<label class="col-md-2 control-label">Icon:</label> 
-						<div class="col-md-4">
-							<input class="form-control" type="text" name="icon" id="icon" placeholder="Icon">
+							<input value="<?php echo $parsing->name;?>" class="form-control" type="text" name="name" id="name" placeholder="Name">
 						</div>
 					</div>					
+				
 					<div class="form-group">
 						<label class="col-md-2 control-label">Description:</label> 
 						<div class="col-md-4">
@@ -42,35 +31,21 @@
 						</div>
 					</div>
 					<div class="form-group">
-						<label class="col-md-2 control-label">Link:</label> 
-						<div class="col-md-4">							
-							<select class="col-md-12 full-width-fix" name="link" id="link">								
-								<?php printTree($link); ?>
-							</select>
-						</div>
-					</div>
-					<div class="form-group">
-						<label class="col-md-2 control-label">Parent:</label> 
-						<div class="col-md-4">
-							<select class="col-md-12 full-width-fix" name="parent" id="parent">								
-								<option value='0'>No Parent</option>
-								<?php printTree($menu_parent); ?>
-							</select>
-						</div>
-					</div> 
-					<div class="form-group">
 						<label class="col-md-2 control-label">Active:</label> 
 						<div class="col-md-4">
-							<select name="active" id="active" class="form-control">								
-								<option value="0">Active</option>
-								<option value="1">Inactive</option>							
+							<select name="active" id="active" class="form-control">
+								
+								<option <?php if($parsing->active == 0){echo "selected";}else{echo "";}?> value="0">Active</option>
+								<option <?php if($parsing->active == 1){echo "selected";}else{echo "";}?> value="1">Inactive</option>
+							
 							</select>
 						</div>
 					</div>	
 					<div class="form-actions">
-						<div class="row">						
-							<div class="col-md-6">								
-								<input type="submit" class="btn btn-primary btn-lg pull-right" onclick="save(this);" value="Save"/>													
+						<div class="row">
+							<div class="col-md-6">
+								<input type="hidden" name="id" id="id" value="<?php echo($parsing->id);?>"/>													
+								<input type="submit" class="btn btn-primary btn-lg pull-right" onclick="edit(this);" value="Save"/>													
 							</div>							
 						</div>
 					</div>										   
@@ -81,29 +56,13 @@
 </div>
 <!-- /BASIC -->
 <div class="separator"></div>
-
 <script type="text/javascript">
 var url = "<?php echo site_url(); ?>";
 // Fungsi Untuk Tambah Data
-function save(){
+function edit(){
 	$('#form').validate({
 	    rules: {
-	      code: {
-	        minlength: 1,
-	        required: true
-	      },
-	      name: {
-	        required: true,
-	        minlength: 2
-	      },
-		  captionn: {
-	        required: true,
-	        minlength: 2
-	      },
-		  link: {
-	        required: true,	        
-			
-	      },
+	     
 	    },
 		highlight: function(element) {
 			$(element).closest('.control-group').removeClass('success').addClass('error');
@@ -115,7 +74,7 @@ function save(){
 		},
 		submitHandler: function(form){
 			$.ajax({
-				url: url+'setup/menu/execute/save',
+				url: url+'unit/unit/execute/update',
 				type: "POST",
 				dataType:"json",
 				data: $("#form").serialize(),
@@ -124,18 +83,16 @@ function save(){
 				},
 				success:function(data){
 					$.pnotify({
-						title: 'Menu Created',
-						text: 'Menu Created',
+						title: 'Unit Success Edited',
+						text: 'Unit Success Edited',
 						animation: {
 							effect_in: 'show',
 							effect_out: 'slide'
 						},
 						type : "success",
 					});
-						
 					setInterval(function() {
-						
-						window.location = "./";
+						window.location = "../";
 					}, 1000);
 				},
 				error: function(){
@@ -149,7 +106,6 @@ function save(){
 $("#parent").select2({
     allowClear: !0
 });
-
 $("#link").select2({
     allowClear: !0
 });

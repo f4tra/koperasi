@@ -4,9 +4,9 @@
 		<!-- BOX -->
 		<div class="box border green">
 			<div class="box-title">
-				<h4><i class="fa fa-table"></i>Post Management</h4> 
+				<h4><i class="fa fa-table"></i>Menu</h4> 
 				<div class="tools hidden-xs">
-					<a  class="btn btn-warning btn-xs" href="<?php echo site_url('cms/post/add');?>">Add New</a>
+					<a  class="btn btn-warning btn-xs" href="<?php echo site_url('unit/unit/add');?>">Add New</a>
 				<br/>
 				</div>
 			</div>
@@ -14,11 +14,10 @@
 				<table cellpadding="0" cellspacing="0" border="0" class="table table-striped table-bordered" id="data">
 					<thead>
 						<tr>
-							<th>Title</th>
-							<th>Author</th>
-							<th><i class="fa fa-comment"></i> Comment</th>
-                            <th>Date</th>                           
-							<th>Status</th>							
+							<th>Code</th>
+                            <th>Name</th>                           
+							<th>Descr</th>							
+							<th>Active</th>
 							<th>Options</th>
 						</tr>
 					</thead>
@@ -45,37 +44,29 @@ $(document).ready(function() {
         'sPaginationType': 'bs_full',
         "bProcessing": true,
         "bServerSide": true,
-        "sAjaxSource": url+"cms/post/load",
+        "sAjaxSource": url+"unit/unit/load",
         "sServerMethod": "POST",        
         "aaSorting": [[1, "asc"]],
         "iDisplayLength": 10,           
         "aoColumns" : [                                    
-            {"mData": "post_title",                
-                "mRender" : function ( data, type, par ) {                    
-                    return "<a href='#' > "+par.post_title+"</a>";             
-                }    
-            },
-            {"mData": "first_name"},
-            {"mData": "comment_count",
-                "mRender" : function ( data, type, par ) {                    
-                    return "<a href='#' ><i class='fa fa-comment-o'> "+par.comment_count+"</i></a>";             
-                }    
-            },
-            {"mData": "post_date"},
-            {"mData": "post_status",
+            {"mData": "code"},
+            {"mData": "name"},
+            {"mData": "descr"},
+           
+            {"mData": "active",
                 "mRender" : function ( data, type, full ) {             
 
-                    if(full.post_status == 0){
-                        return "<center><input  data-id="+full.ID+" checked type='checkbox' id='active' class='checkbox' value='1'/><span-"+full.ID+" class='label label-primary'> Publish</span></center>";             
+                    if(full.active == 0){
+                        return "<center><input  data-id="+full.id+" checked type='checkbox' id='active' class='checkbox' value='1'/></center>";             
                     }else{
-                        return "<center><input  data-id="+full.ID+" type='checkbox' id='active' class='checkbox' value='0'/><span-"+full.ID+" class='label label-danger'> Unpublish</span></center>"; 
+                        return "<center><input  data-id="+full.id+" type='checkbox' id='active' class='checkbox' value='0'/></center>"; 
                     }               
                 }
-            },            
+            },
             {"mData": "show",
             	"mRender" : function ( data, type, full ) {             
-            		var link = '<a  title="Edit"class="btn btn-warning btn-xs" href='+url+'cms/post/edit/'+full.ID+'><i class="fa fa-pencil"></i></a> || '+
-            		'<button title="Delete" class="btn btn-danger btn-xs" data-id='+full.ID+' onclick="del(this);"><i class="fa fa-trash-o"></i></button>';
+            		var link = '<a  title="Edit"class="btn btn-warning btn-xs" href='+url+'unit/unit/edit/'+full.id+'><i class="fa fa-pencil"></i></a> || '+
+            		'<button title="Delete" class="btn btn-danger btn-xs" data-id='+full.id+' onclick="del(this);"><i class="fa fa-trash-o"></i></button>';
 					return link;
                }
         	},
@@ -94,26 +85,26 @@ $(document).ready(function() {
         var id = $(this).attr('data-id');
         if(this.checked){            
             $.ajax({
-                url: url+'cms/post/execute/active',
+                url: url+'unit/unit/execute/active',
                 type: 'post',
                 data: 'active=0&id='+i,
                 success: function(result)
                 {
-                    $('span-'+id).removeClass('label-danger').addClass('label-default');
-                    $('span-'+id).html('Publish');                   
-                    //window.location.reload();
+                    $('span-'+id).removeClass('label-default ').addClass('label-info');
+                    $('span-'+id).html('Active');                   
+                    window.location.reload();
                 }
             });
         }else {
             $.ajax({
-                url: url+'cms/post/execute/active',
+                url: url+'unit/unit/execute/active',
                 type: 'post',
                 data: 'active=1&id='+i,                         
-                success: function(result){
-                
-                    $('span-'+id).removeClass('label-default').addClass('label-danger');
-                    $('span-'+id).html('Unpublish');
-                    //window.location.reload();
+                success: function(result)
+                {
+                    $('span-'+id).removeClass('label-info ').addClass('label-default');
+                    $('span-'+id).html('Inactive');
+                    window.location.reload();
                 }
             });
         }
@@ -130,7 +121,7 @@ function del(btn)
 	{
 		var id = $(btn).attr('data-id');		
 		$.ajax({
-			url: url+'cms/post/execute/delete/',
+			url: url+'unit/unit/execute/delete/'+id,
 			type: "POST",
 			data:{data_id:id},
 			crossDomain:true,

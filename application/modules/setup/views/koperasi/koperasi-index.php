@@ -57,7 +57,7 @@
 </div>
 	
 <script type="text/javascript">
-var url = "<?php echo site_url();?>/";
+var url = "<?php echo site_url();?>";
 $(document).ready(function() {    
     $('#data').dataTable({
         'sPaginationType': 'bs_full',

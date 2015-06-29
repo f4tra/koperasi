@@ -24,40 +24,12 @@
 						</div>
 					</div>
 					<div class="form-group">
-						<label class="col-md-2 control-label">Label:</label> 
-						<div class="col-md-4">
-							<input class="form-control" type="text" name="label" id="label" placeholder="Label">
-						</div>
-					</div>
-					<div class="form-group">
-						<label class="col-md-2 control-label">Icon:</label> 
-						<div class="col-md-4">
-							<input class="form-control" type="text" name="icon" id="icon" placeholder="Icon">
-						</div>
-					</div>					
-					<div class="form-group">
 						<label class="col-md-2 control-label">Description:</label> 
 						<div class="col-md-4">
 							<textarea name="descr" id="descr" cols="30" rows="10" class="form-control"></textarea>
 						</div>
 					</div>
-					<div class="form-group">
-						<label class="col-md-2 control-label">Link:</label> 
-						<div class="col-md-4">							
-							<select class="col-md-12 full-width-fix" name="link" id="link">								
-								<?php printTree($link); ?>
-							</select>
-						</div>
-					</div>
-					<div class="form-group">
-						<label class="col-md-2 control-label">Parent:</label> 
-						<div class="col-md-4">
-							<select class="col-md-12 full-width-fix" name="parent" id="parent">								
-								<option value='0'>No Parent</option>
-								<?php printTree($menu_parent); ?>
-							</select>
-						</div>
-					</div> 
+					
 					<div class="form-group">
 						<label class="col-md-2 control-label">Active:</label> 
 						<div class="col-md-4">
@@ -115,7 +87,7 @@ function save(){
 		},
 		submitHandler: function(form){
 			$.ajax({
-				url: url+'setup/menu/execute/save',
+				url: url+'unit/unit/execute/save',
 				type: "POST",
 				dataType:"json",
 				data: $("#form").serialize(),
@@ -124,8 +96,8 @@ function save(){
 				},
 				success:function(data){
 					$.pnotify({
-						title: 'Menu Created',
-						text: 'Menu Created',
+						title: 'Unit Created',
+						text: 'Unit Created',
 						animation: {
 							effect_in: 'show',
 							effect_out: 'slide'
