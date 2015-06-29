@@ -40,7 +40,7 @@ class Welcome extends MY_Controller
 		if ($this->auth->loggedin()) 
         {
              //echo Modules::run('welcome/hmvc/module_run');
-             $this->template->build('bootstrap_fluid');
+             //$this->template->build('bootstrap_fluid');
              //$this->load->controller('dashboard/dashboard');
              echo site_url();
         }else{
