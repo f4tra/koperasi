@@ -1,4 +1,4 @@
-
+<!-- notes -->
 <?php 
     if($this->uri->segment(1) != null)
         $fixet =  "navbar-fixed-top";
