@@ -1,6 +1,6 @@
 <?php
 
-$lang['welcome_to_codeigniter']		= 'Selamat Datang di CodeIgniter!';
+$lang['welcome_to_codeigniter']		= 'Selamat Datang di Koperasi!';
 $lang['generated_by_codeigniter']	= 'Halaman yang Anda lihat ini dibuat secara dinamis oleh CodeIgniter.';
 $lang['learn_more']					= 'Pelajari Lebih Jauh &raquo;';
 

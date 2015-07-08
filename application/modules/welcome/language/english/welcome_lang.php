@@ -1,6 +1,6 @@
 <?php
 
-$lang['welcome_to_codeigniter']		= 'Welcome to CodeIgniter!';
+$lang['welcome_to_codeigniter']		= 'Welcome to Koperasi!';
 $lang['generated_by_codeigniter']	= 'The page you are looking at is being generated dynamically by CodeIgniter.';
 $lang['learn_more']					= 'Learn more &raquo;';
 

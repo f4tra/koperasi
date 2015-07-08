@@ -1,4 +1,4 @@
-var url = "http://localhost/koperasi/index.php/";
+/*var url = "http://localhost/koperasi/index.php/";
 $(document).ready(function() {    
     $('#data_menu').dataTable({
         'sPaginationType': 'bs_full',
@@ -70,4 +70,4 @@ $(document).ready(function() {
             });
         }
     });
-});
+});*/

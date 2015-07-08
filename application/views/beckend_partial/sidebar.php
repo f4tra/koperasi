@@ -1,5 +1,12 @@
+<?php 
+    if($this->uri->segment(1) != null)
+        $fixet =  "sidebar-fixed";
+    else
+        $fixet =  "";
+
+        ?>
 <!-- SIDEBAR -->
-<div id="sidebar" class="sidebar sidebar-fixed">
+<div id="sidebar" class="sidebar <?php echo $fixet;?> ">
     <div class="sidebar-menu nav-collapse">
         <div class="divide-20"></div>
             <!-- SEARCH BAR -->

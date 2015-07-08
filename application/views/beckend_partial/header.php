@@ -1,9 +1,16 @@
 
-<header class="navbar clearfix navbar-fixed-top" id="header">
+<?php 
+    if($this->uri->segment(1) != null)
+        $fixet =  "navbar-fixed-top";
+    else
+        $fixet =  "";
+
+        ?>
+<header class="navbar clearfix <?php echo $fixet;?>" id="header">
     <div class="container">
         <div class="navbar-brand">
             <!-- COMPANY LOGO -->
-                <a href="index.html">
+                <a href="<?php echo base_url();?>">
                         <img src="<?php echo base_url('assets/Logo1Small.png');?>" alt="Cloud Admin Logo" class="img-responsive" height="30" width="120" />
                     </a>
                     <!-- /COMPANY LOGO -->
@@ -153,7 +160,7 @@
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="img/avatars/avatar2.jpg" alt="" />
+                                    <img src="<?php echo base_url();?>assets/beckend/img/avatars/avatar2.jpg" alt="" />
                                     <span class="body">
                                         <span class="from">Jane Doe</span>
                                         <span class="message">
@@ -169,7 +176,7 @@
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="img/avatars/avatar1.jpg" alt="" />
+                                    <img src="<?php echo base_url();?>assets/beckend/img/avatars/avatar1.jpg" alt="" />
                                     <span class="body">
                                         <span class="from">Vince Pelt</span>
                                         <span class="message">
@@ -185,7 +192,7 @@
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="img/avatars/avatar8.jpg" alt="" />
+                                    <img src="<?php echo base_url();?>assets/beckend/img/avatars/avatar8.jpg" alt="" />
                                     <span class="body">
                                         <span class="from">Debby Doe</span>
                                         <span class="message">

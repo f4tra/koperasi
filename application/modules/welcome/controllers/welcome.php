@@ -15,6 +15,7 @@ class Welcome extends MY_Controller
 		parent::__construct();
 		
 		$this->load->language('welcome');
+		$this->load->model('blog');
 	}
 
 	/**
@@ -39,14 +40,38 @@ class Welcome extends MY_Controller
 
 		if ($this->auth->loggedin()) 
         {
-             //echo Modules::run('welcome/hmvc/module_run');
-             //$this->template->build('bootstrap_fluid');
-             //$this->load->controller('dashboard/dashboard');
-             echo site_url();
+        	$js =  'jQuery(document).ready(function() {		
+				App.setPage("index");  //Set current page
+
+			App.init(); //Initialise plugins and elements
+		});';
+        	$this->template
+        	->set_css('js/fullcalendar/fullcalendar.min')
+        	->set_css('js/jquery-todo/css/styles')
+        	->set_css('js/gritter/css/jquery.gritter')
+        	->set_js('js/jQuery-BlockUI/jquery.blockUI.min',true)
+        	->set_js('js/sparklines/jquery.sparkline.min',true)
+        	->set_js('js/jquery-easing/jquery.easing.min',true)
+        	->set_js('js/easypiechart/jquery.easypiechart.min',true)
+        	->set_js('js/flot/jquery.flot.min',true)
+        	->set_js('js/flot/jquery.flot.time.min',true)
+        	->set_js('js/flot/jquery.flot.selection.min',true)
+        	->set_js('js/flot/jquery.flot.resize.min',true)
+        	->set_js('js/flot/jquery.flot.pie.min',true)
+        	->set_js('js/flot/jquery.flot.stack.min',true)
+        	->set_js('js/flot/jquery.flot.crosshair.min',true)
+        	->set_js('js/jquery-todo/js/paddystodolist',true)
+        	->set_js('js/timeago/jquery.timeago.min',true)
+        	->set_js('js/fullcalendar/fullcalendar.min',true)
+        	->set_js('js/script',true)
+        	->set_js_script($js,'',true)
+        	->build('dashboard');
+             
         }else{
-        	
+        	$this->data['posted'] =  $this->blog->getAll();
         	$this->template->load_module_partial('sidebar', 'welcome/hmvc/sidebar_partial')
 			->build('welcome_message');	
+
         }
 		
 	}

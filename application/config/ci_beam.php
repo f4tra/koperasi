@@ -21,9 +21,9 @@ $config['languages']		= array(
  * 
  */
 $config['main_nav']			= array(
-	'welcome/bootstrap_demo/starter'	=> 'Starter',
+	/*'welcome/bootstrap_demo/starter'	=> 'Starter',
 	'welcome/bootstrap_demo/fluid'		=> 'Fluid',
-	'welcome/bootstrap_demo/marketing'	=> 'Marketing',
+	'welcome/bootstrap_demo/marketing'	=> 'Marketing',*/
 	'authotize/user'							=> 'User',
 	'acl'								=> array(
 		'acl/rule'		=> 'Rules',

@@ -39,11 +39,14 @@
 	<!-- JAVASCRIPTS -->
 	<?php  echo $template['js_footer']['beckend']; ?>
 	<script>
+		<?php 
+
+		if($this->uri->segment(1) != null):?>
 		jQuery(document).ready(function() {		
 			App.setPage("fixed_header_sidebar");  //Set current page			
-			//App.setPage("forms");  //Set current page			
 			App.init(); //Initialise plugins and elements
 		});
+		<?php endif;?>
 	</script>
 </body>
 </html>

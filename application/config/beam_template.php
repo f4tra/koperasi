@@ -38,7 +38,7 @@ $config['beam_template']['assets_path'] = array(
 /**
  * Default Site Title
  */
-$config['beam_template']['base_title'] = 'My Site';
+$config['beam_template']['base_title'] = 'Koperasi';
 
 /**
  * Title Separator 
@@ -50,7 +50,7 @@ $config['beam_template']['title_separator'] = ' | ';
  */
 $config['beam_template']['metas'] = array(
 	'description'	=> 'My Site description',
-	'author'		=> 'Me',
+	'author'		=> 'Muhamad Jafar Sidik',
 	'viewport'		=> 'width=device-width, initial-scale=1'
 );
 

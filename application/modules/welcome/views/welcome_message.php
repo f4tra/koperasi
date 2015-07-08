@@ -1,7 +1,7 @@
 <div class="jumbotron">
 	<h1><?php echo lang('welcome_to_codeigniter'); ?></h1>
-	<p><?php echo lang('generated_by_codeigniter'); ?></p>
-	<p><a class="btn btn-lg btn-primary" href="https://ellislab.com/codeigniter/user-guide/" target="_blank"><?php echo lang('learn_more'); ?></a></p>
+	<p><?php //echo lang('generated_by_codeigniter'); ?></p>
+	
 </div>
 
 <div class="row">
@@ -46,15 +46,24 @@
 </div>
 	</div>
 	<div class="col-md-8">
-		<h2><?php echo lang('edit_this'); ?></h2>
-		<p><?php echo lang('edit_at'); ?></p>
-		<code>application/modules/welcome/views/welcome_message.php</code>
+        <?php 
+        foreach ($posted as $key => $value) {
+        ?>		
+		<div class="blog-post">
+            <h2 class="blog-post-title"><?php echo $value->post_title; ?></h2>
+            <p class="blog-post-meta"><?php echo $value->post_date; ?> by <a href="#">Admin</a></p>
+            <?php echo $value->post_content; ?>
+            <a href="#" class="pull-right">Comment (<?php echo $value->comment_count; ?>)</a>
+        </div>
+        <hr/>
+          <?php    
+        }
+        ?>
 	</div>
 </div>
 
 <script type="text/javascript">
 var url = "<?php echo site_url(); ?>";
-// Fungsi Untuk Tambah Data
 function logins(){
     $('#login').validate({
         rules: {
