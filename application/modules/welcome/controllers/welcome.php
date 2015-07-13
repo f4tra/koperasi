@@ -40,7 +40,7 @@ class Welcome extends MY_Controller
 
 		if ($this->auth->loggedin()) 
         {
-        	$js =  'jQuery(document).ready(function() {		
+        	/*$js =  'jQuery(document).ready(function() {		
 				App.setPage("index");  //Set current page
 
 			App.init(); //Initialise plugins and elements
@@ -65,8 +65,9 @@ class Welcome extends MY_Controller
         	->set_js('js/fullcalendar/fullcalendar.min',true)
         	->set_js('js/script',true)
         	->set_js_script($js,'',true)
-        	->build('dashboard');
-             
+        	->build('dashboard');*/
+             $this->template
+            ->build('blank'); 
         }else{
         	$this->data['posted'] =  $this->blog->getAll();
         	$this->template->load_module_partial('sidebar', 'welcome/hmvc/sidebar_partial')
