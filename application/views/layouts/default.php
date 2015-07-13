@@ -41,12 +41,12 @@
 	<script>
 		<?php 
 
-		if($this->uri->segment(1) != null):?>
+		//if($this->uri->segment(1) != null):?>
 		jQuery(document).ready(function() {		
 			App.setPage("fixed_header_sidebar");  //Set current page			
 			App.init(); //Initialise plugins and elements
 		});
-		<?php endif;?>
+		<?php //endif;?>
 	</script>
 </body>
 </html>

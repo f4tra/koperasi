@@ -1,9 +1,9 @@
 <!-- notes -->
 <?php 
-    if($this->uri->segment(1) != null)
+   // if($this->uri->segment(1) != null)
         $fixet =  "navbar-fixed-top";
-    else
-        $fixet =  "";
+  //  else
+   //     $fixet =  "";
 
         ?>
 <header class="navbar clearfix <?php echo $fixet;?>" id="header">

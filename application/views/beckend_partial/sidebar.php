@@ -1,8 +1,8 @@
 <?php 
-    if($this->uri->segment(1) != null)
+   // if($this->uri->segment(1) != null)
         $fixet =  "sidebar-fixed";
-    else
-        $fixet =  "";
+   // else
+      //  $fixet =  "";
 
         ?>
 <!-- SIDEBAR -->
